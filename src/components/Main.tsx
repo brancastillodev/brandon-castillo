@@ -34,16 +34,16 @@ function Main() {
               I’m a Front End Developer specializing building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              Currently, I’m a frontend developer at{" "}
+              Currently, I’m a Front End Developer at{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                CGC MINC
-              </a>, 
-              where I translate high-fidelity designs into responsive and accessible experiences, 
-              including 2D and 3D animations.
+                MINC CG
+              </a>, a multidisciplinary studio and a curated retail platform, 
+              where I translate high-fidelity designs into a responsive and accessible experience,  
+              including 3D animations and fast interactions. This is the work I'm most proud of till this date.
             </>}
           </p>
         </section>
