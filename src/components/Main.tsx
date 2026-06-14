@@ -27,7 +27,7 @@ function Main() {
                 CGC MINC
               </a>, 
               donde traduzco diseños de alta fidelidad en experiencias 
-              responsivas y accesibles, incluyendo animaciones en 2D y 3D.
+              responsivas y accesibles, incluyendo animaciones en 3D e interacciones rápidas. Este es el trabajo del que estoy más orgulloso hasta la fecha.
             </> 
             :
             <> 
