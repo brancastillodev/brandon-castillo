@@ -77,7 +77,7 @@ function Main() {
       
       <footer>
         <div className="footer-links">
-          <p className="firma">Made with ❤️ by Brandon 🏰</p>
+          <p className="firma">Made with ❤️ by Brandon 🏰 Buenos Aires </p>
         </div>
       </footer>
     </>
