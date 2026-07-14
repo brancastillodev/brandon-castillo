@@ -683,16 +683,16 @@ footer {
 [data-theme=light] {
   color-scheme: light;
   --bg: #f5f5f0;
-  --text: #1a1a1a;
-  --text-secondary: #444;
-  --title: #222;
+  --text: #3a3a3a;
+  --text-secondary: #555;
+  --title: #333;
   --accent: #4a8bc2;
   --hover: #31a594;
   --card-bg: rgba(0, 0, 0, 0.04);
   --card-bg-hover: rgba(0, 0, 0, 0.08);
   --input-bg: #fff;
   --input-border: #ccc;
-  --icon-fill: #333;
+  --icon-fill: #444;
 }
 
 html {
