@@ -1,0 +1,45 @@
+.skills-grid
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  gap: 1rem
+
+.skills-card
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 0.5rem
+  padding: 1rem 0.5rem
+  border-radius: 10px
+  background: var(--card-bg)
+  transition: background 0.2s ease, transform 0.2s ease
+
+  &:hover
+    background: var(--card-bg-hover)
+    transform: translateY(-2px)
+
+  img
+    width: 36px !important
+    height: 36px !important
+    min-width: 36px
+    min-height: 36px
+    filter: grayscale(0.3)
+    transition: filter 0.2s ease
+
+  &:hover img
+    filter: grayscale(0)
+
+  span
+    font-size: 0.8rem
+    color: var(--text-secondary)
+    text-align: center
+
+@media (min-width: 768px)
+  .skills-grid
+    grid-template-columns: repeat(4, 1fr)
+
+@media (min-width: 1150px)
+  #skills
+    width: 45rem
+
+  .skills-grid
+    grid-template-columns: repeat(6, 1fr)

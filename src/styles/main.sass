@@ -4,8 +4,6 @@ main
 section
   margin-bottom: 4.5rem
 
-// nos quedmo aca domingo3 mayo 
-
 .section-title
   h2
     font-size: 0.9rem
@@ -16,17 +14,17 @@ section
 
 // about---------------
 .about-body
-  color: $color-texto
+  color: var(--text-secondary)
   a
-    color: $color-titulo
+    color: var(--title)
     transition: color 0.3s ease
   a:hover
-    color: #31a594
+    color: var(--hover)
 
 // experience----------
 .exp-card
   margin-bottom: 3rem
-  color: $color-texto
+  color: var(--text-secondary)
 
 .exp-card__date
   color: #7d8597
@@ -39,11 +37,31 @@ section
   gap: 0.2rem
   font-size: 1.4rem
   font-weight: 400
-  color: $color-titulo
+  color: var(--title)
   margin-bottom: 0.3rem
 
+.exp-card__link
+  display: inline-flex
+  align-items: flex-end
+  gap: 0.2rem
+  color: inherit
+  transition: color 0.15s ease
+
+  &:hover
+    color: var(--hover)
+
+  &:hover .exp-card__arrow
+    transform: translate(2px, -2px)
+    color: var(--hover)
+
+.exp-card__arrow
+  width: 1rem
+  height: 1rem
+  color: inherit
+  transition: transform 0.15s ease, color 0.15s ease
+
 .exp-card__descr
-  color: $color-texto
+  color: var(--text-secondary)
   margin-bottom: 0.5rem
 
 .exp-card__extra
@@ -55,9 +73,9 @@ section
     font-size: 0.9rem
     display: inline-flex
     gap: 0.1rem
-    color: $color-titulo
+    color: var(--title)
   a:hover
-    color: #31a594
+    color: var(--hover)
 
 .exp-card__techs
   list-style: none
@@ -66,8 +84,9 @@ section
 
 .exp-car__tech
   border-radius:  15px
-  background-color: #0E2230
-  color: #61EAD5
+  background-color: var(--card-bg)
+  color: var(--text-secondary)
+  border: 1px solid var(--input-border)
   padding: 0.45rem 0.55rem
   font-size: 0.9rem
 
@@ -81,20 +100,26 @@ section
   display: flex
   align-items: flex-end
   gap: 0.2rem
+
+  .exp-card__arrow
+    width: 1rem
+    height: 1rem
+    transition: transform 0.15s ease, color 0.15s ease
+
 h4, .navbar-links a
   font-size: 1.1rem
   font-weight: 400
-  color: $color-titulo
-  transition: transform 0.3s ease, color 0.3s ease
+  color: var(--title)
+  transition: transform 0.15s ease, color 0.15s ease
 h4:hover,.navbar-links a:hover
-  color: #31a594
+  color: var(--hover)
   transform: scale(1.02)
 svg
   width: 1.1rem
 
 .proj-card__desc
   margin-top: 0.5rem
-  color: $color-texto
+  color: var(--text-secondary)
 
 .proj-card__image
   margin-top: 0.9rem
@@ -108,9 +133,9 @@ svg
   gap: 1rem
   a
     font-size: 0.9rem
-    color: $color-titulo
+    color: var(--title)
   a:hover
-    color: #31a594
+    color: var(--hover)
 
 // charts--------------
 #charts
@@ -126,7 +151,7 @@ footer
   flex-direction: column
   gap: 0.4rem
   p
-    color: #5D8ECB
+    color: var(--accent)
 
 .footer-links
   display: flex

@@ -7,6 +7,12 @@ header
 nav
   display: flex
   justify-content: space-between
+  align-items: center
+
+.nav-controls
+  display: flex
+  align-items: center
+  gap: 1rem
 
 .set-lang
   display: flex
@@ -21,6 +27,26 @@ nav
 .not-clicked
   color: rgba(255, 255, 255, 0.5)
 
+[data-theme="light"]
+  .clicked
+    color: #1a1a1a
+  .not-clicked
+    color: rgba(0, 0, 0, 0.35)
+
+.theme-toggle
+  background: none
+  border: none
+  cursor: pointer
+  padding: 0.25rem
+  display: flex
+  align-items: center
+  justify-content: center
+  color: var(--icon-fill)
+  transition: color 0.2s ease
+  border-radius: 6px
+
+  &:hover
+    color: var(--accent)
 
 // hero----------
 #hero
@@ -35,7 +61,7 @@ nav
   border-radius: 50%
   overflow: hidden
   filter: contrast(0.85) brightness(0.9)  
-  background: $color-principal
+  background: transparent
   
 h1
   margin-top: 0.5rem
@@ -49,11 +75,20 @@ h2
 .hero-description
   margin-top: 1rem
   font-size: 1.05rem
-  color: $color-principal
+  color: var(--text)
 
 .rainbow-hover:hover
-  color: pink
   cursor: pointer
+  background: linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00ff00, #0000ff, #8b00ff, #ff0000)
+  background-size: 200% auto
+  -webkit-background-clip: text
+  background-clip: text
+  -webkit-text-fill-color: transparent
+  animation: rainbow 1.5s linear infinite
+
+@keyframes rainbow
+  to
+    background-position: 200% center
 
 .hero-icons
   margin-top: 1.2rem
@@ -61,9 +96,10 @@ h2
   gap: 0.7rem
   svg
     width: 2rem
+    color: var(--icon-fill)
     transition: transform 0.3s ease, color 0.3s ease
   svg:hover
-    fill: #61EAD5
+    color: #61EAD5
     transform: scale(1.1)
 
 .navbar-links

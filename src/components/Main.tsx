@@ -2,7 +2,23 @@ import exp from "../utils/newExp"
 import projects from "../utils/newProjects"
 import NewExpCard from "../commons/NewExpCard"
 import NewProjectCard from "../commons/NewProjectCard"
+import Skills from "./Skills"
+import Contact from "./Contact"
 import { useAppSelector } from "../hooks/hooks";
+import { useScrollReveal } from "../hooks/useScrollReveal";
+
+function AnimatedSection({ id, children }: { id: string; children: React.ReactNode }) {
+  const { ref, visible } = useScrollReveal();
+  return (
+    <section
+      id={id}
+      ref={ref}
+      className={`section-title ${visible ? "reveal-visible" : "reveal"}`}
+    >
+      {children}
+    </section>
+  );
+}
 
 function Main() {
   const leng = useAppSelector(state => state.lang.esp);
@@ -10,7 +26,7 @@ function Main() {
   return (
     <>
       <main>
-        <section id="about" className="section-title">
+        <AnimatedSection id="about">
           <h2>{leng ? "SOBRE MÍ" : "About"}</h2>
           <p className="about-body">
             {leng ? 
@@ -31,10 +47,10 @@ function Main() {
             </> 
             :
             <> 
-              I’m a Front End Developer specializing building intuitive, immersive, pixel-perfect user interfaces. 
+              I'm a Front End Developer specializing building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              Currently, I’m a Front End Developer at{" "}
+              Currently, I'm a Front End Developer at{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
@@ -46,33 +62,35 @@ function Main() {
               including 3D animations and fast interactions. This is the work I'm most proud of till this date.
             </>}
           </p>
-        </section>
+        </AnimatedSection>
 
-        <section id="experience" className="section-title">
+        <AnimatedSection id="skills">
+          <Skills />
+        </AnimatedSection>
+
+        <AnimatedSection id="experience">
           <h2>{leng?"Experiencia":"Experience"}</h2>
           {exp.map((ele,i)=>(
             <NewExpCard exp={ele} key={i}/>
           ))}
-        </section>
+        </AnimatedSection>
 
-        <section id="projects" className="section-title">
+        <AnimatedSection id="projects">
           <h2>{leng ? "Proyectos":"Projects"}</h2>
           {projects.map((ele,i)=>(
             <NewProjectCard proj={ele} key={i}/>
           ))}
-          {/* <div className="extra-project-links">
-            
-            <a href={""} target="_blank" rel="noopener noreferrer"> adsfasd</a>
-          </div> */}
-        </section>
+        </AnimatedSection>
 
-        <section id="charts" className="section-title">
+        <AnimatedSection id="charts">
           <h2>Charts</h2>
           <img
             src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
             alt="brandoncastillodev's Github chart"
           />
-        </section>
+        </AnimatedSection>
+
+        <Contact />
       </main>
       
       <footer>

@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import menuReducer from "./menu";
 import langReducer from "./lang";
+import themeReducer from "./theme";
 
 const store = configureStore({
   reducer: {
     menu: menuReducer,
     lang: langReducer,
+    theme: themeReducer,
   },
 });
 

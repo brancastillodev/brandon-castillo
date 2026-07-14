@@ -1,0 +1,68 @@
+.contact-form
+  display: flex
+  flex-direction: column
+  gap: 1.5rem
+
+.contact-form__row
+  display: flex
+  flex-direction: column
+  gap: 1.5rem
+
+.contact-form__field
+  display: flex
+  flex-direction: column
+  gap: 0.4rem
+
+  label
+    font-size: 0.85rem
+    color: var(--text-secondary)
+    letter-spacing: 0.05rem
+
+  input,
+  textarea
+    background: var(--input-bg)
+    border: 1px solid var(--input-border)
+    border-radius: 8px
+    padding: 0.75rem 0.9rem
+    color: var(--text)
+    font-family: inherit
+    font-size: 0.95rem
+    transition: border-color 0.2s ease
+    resize: vertical
+
+  input:focus,
+  textarea:focus
+    outline: none
+    border-color: var(--accent)
+
+.contact-form__btn
+  align-self: flex-start
+  background: var(--accent)
+  color: #fff
+  border: none
+  border-radius: 8px
+  padding: 0.7rem 1.8rem
+  font-family: inherit
+  font-size: 0.95rem
+  font-weight: 600
+  cursor: pointer
+  transition: opacity 0.2s ease
+
+.contact-form__btn:hover
+  opacity: 0.85
+
+.contact-form__btn:disabled
+  opacity: 0.5
+  cursor: not-allowed
+
+.contact-form__error
+  color: #e06c75
+  font-size: 0.9rem
+
+@media (min-width: 768px)
+  .contact-form__row
+    flex-direction: row
+
+@media (min-width: 1150px)
+  #contact
+    width: 45rem

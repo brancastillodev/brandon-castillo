@@ -14,11 +14,39 @@ $fondo: #2D3133
 @import "works.sass"
 @import "projects.sass"
 @import "services.sass"
+@import "skills.sass"
 @import "contact.sass"
 @import "footer.sass"
 
-:root
+// dark theme (default)
+:root,
+[data-theme="dark"]
   color-scheme: dark
+  --bg: #2D3133
+  --text: #E8E6E3
+  --text-secondary: #B0A99F
+  --title: #C9D7E3
+  --accent: #679ECE
+  --hover: #31a594
+  --card-bg: rgba(255, 255, 255, 0.04)
+  --card-bg-hover: rgba(255, 255, 255, 0.08)
+  --input-bg: #1a1d1f
+  --input-border: #3a3d40
+  --icon-fill: #B0A99F
+
+[data-theme="light"]
+  color-scheme: light
+  --bg: #f5f5f0
+  --text: #1a1a1a
+  --text-secondary: #444
+  --title: #222
+  --accent: #4a8bc2
+  --hover: #31a594
+  --card-bg: rgba(0, 0, 0, 0.04)
+  --card-bg-hover: rgba(0, 0, 0, 0.08)
+  --input-bg: #fff
+  --input-border: #ccc
+  --icon-fill: #333
 
 html
   scroll-behavior: smooth
@@ -35,8 +63,9 @@ img
 
 body
   font-family: inter
-  background-color: $fondo
-  color: $color-principal
+  background-color: var(--bg)
+  color: var(--text)
+  transition: background-color 0.3s ease, color 0.3s ease
 
 a
   text-decoration: none
@@ -50,8 +79,17 @@ section,
 .layout
   min-height: 100vh
 
+// scroll reveal animations
+.reveal
+  opacity: 0
+  transform: translateY(24px)
+  transition: opacity 0.6s ease, transform 0.6s ease
+
+.reveal-visible
+  opacity: 1
+  transform: translateY(0)
+
 @media (min-width: 1150px)
   .layout
     display: flex
     justify-content: center
-
