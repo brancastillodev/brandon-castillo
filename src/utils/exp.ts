@@ -195,7 +195,7 @@ const exp = [
       "Sequelize",
       "jsonwebtoken",
       "React",
-      "Redux",
+      "OAuth2.0",
       "Mui",
       "Axios",
       "Sass",

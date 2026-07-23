@@ -59,9 +59,9 @@ const exp = [
       },
     ],
     techs: [
-      "JavaScript",
+      "PostgreSQL",
       "React",
-      "Redux",
+      "OAuth2.0",
       "Node.js",
     ],
   },
