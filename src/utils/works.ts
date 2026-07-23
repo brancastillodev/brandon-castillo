@@ -35,7 +35,7 @@ const works = [
     ],
 
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",
@@ -91,7 +91,7 @@ const works = [
     ],
 
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",

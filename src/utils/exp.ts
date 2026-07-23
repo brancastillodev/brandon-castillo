@@ -37,7 +37,7 @@ const exp = [
     ],
 
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",
@@ -95,7 +95,7 @@ const exp = [
     ],
 
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",
@@ -189,7 +189,7 @@ const exp = [
       },
     ],
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",
@@ -256,7 +256,7 @@ const exp = [
       },
     ],
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "Sequelize",
       "Postgres",
@@ -321,7 +321,7 @@ const exp = [
       },
     ],
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "PostgreSQL",
       "Sequelize",
@@ -360,7 +360,7 @@ const exp = [
       },
     ],
     techs: [
-      "NodeJs",
+      "Node.js",
       "Express",
       "Curl",
       "YGOPRODeck API",

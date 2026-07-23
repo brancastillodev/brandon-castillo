@@ -1,7 +1,7 @@
 const exp = [
   {
-    date: "DEC - NOW",
-    fecha: "DIC - ACTUALIDAD",
+    date: "DEC 2025 - NOW",
+    fecha: "DIC 2025 - ACTUALIDAD",
     title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
     descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
@@ -19,7 +19,7 @@ const exp = [
       
     ],
     techs: [
-      "NodeJs",
+      "Node.js",
       "PostgreSQL",
       "React",
       "Snipcart",
