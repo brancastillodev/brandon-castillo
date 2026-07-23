@@ -19,11 +19,11 @@ const exp = [
       
     ],
     techs: [
-      "JavaScript",
+      "NodeJs",
+      "PostgreSQL",
       "React",
-      "VP9",
-      "H265",
-      "SASS"
+      "Snipcart",
+      "OpenCode"
     ],
     linksTools: [
       {
