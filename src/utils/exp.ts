@@ -39,6 +39,7 @@ const exp = [
     techs: [
       "Node.js",
       "Express",
+      "PostgreSQL",
       "Sequelize",
       "dotEnv",
       "bcryptJs",

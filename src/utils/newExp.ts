@@ -20,6 +20,7 @@ const exp = [
     ],
     techs: [
       "Node.js",
+      "PostgreSQL",
       "React",
       "Snipcart",
       "Sass"
