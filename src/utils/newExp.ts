@@ -20,10 +20,9 @@ const exp = [
     ],
     techs: [
       "Node.js",
-      "PostgreSQL",
       "React",
       "Snipcart",
-      "OpenCode"
+      "Sass"
     ],
     linksTools: [
       {

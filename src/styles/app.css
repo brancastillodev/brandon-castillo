@@ -232,8 +232,14 @@ section {
   margin-bottom: 0.5rem;
 }
 
-.exp-card__extra {
+.exp-card__extra-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.exp-card__extra {
+  margin-bottom: 0;
 }
 .exp-card__extra a {
   border: 1px solid #677c8b;
