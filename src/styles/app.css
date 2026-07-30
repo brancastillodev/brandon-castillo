@@ -257,6 +257,7 @@ section {
 .exp-card__techs {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 0.6rem;
 }
 
