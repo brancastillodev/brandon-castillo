@@ -50,7 +50,8 @@ const exp = [
     youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     github: "http://github.com/brandoncastillodev/carbon-copy",
     extra: [
-      {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"}
+      {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"},
+      {name: "Trello", link: "https://trello.com/invite/b/653037248cb51c4fa29a9071/ATTIfbd09fa0e24e0c5245823a38f310d4acD31E87F4/carbon-copy"}
     ],
     mainFeat: [
       {
