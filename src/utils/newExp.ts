@@ -68,8 +68,8 @@ const exp = [
   },
   {
     title: "Calles Construction",
-    date: "JAN - FEB 2025",
-    fecha: "JAN - FEB 2025",
+    date: "JUN - DEC 2024",
+    fecha: "JUN - DEC 2024",
     web: "https://calles-construction.vercel.app/",
     desc:`Freelance project where the company needed a custom solution 
     to manage their own projects through a structured and easy-to-use interface. 
