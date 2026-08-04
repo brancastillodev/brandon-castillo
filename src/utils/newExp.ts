@@ -116,8 +116,8 @@ const exp = [
   },
 
   {
-    date: "APR - MAY 2024",
-    fecha: "ABR - MAY 2024",
+    date: "JAN - FEB 2024",
+    fecha: "ENE - FAB 2024",
     title: "Dreamer Paintings",
     web: "https://dreamer-paintings.vercel.app",
     github: "https://github.com/brandoncastillodev/dreamers-paintings",
