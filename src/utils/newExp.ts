@@ -6,8 +6,8 @@ const exp = [
     web: "https://cgcminc.vercel.app/",
     descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
     Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
-    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio) y navegadores (Chrome, Safari).
-    También diseñé la base de datos del e-commerce y gestioné la integración con Snipcart, con una implementación responsive y pixel-perfect.
+    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio), como también navegadores (Chrome, Safari).
+    Realicé el diseñó base de datos del e-commerce y gestioné la integración con Snipcart, con una implementación responsive y pixel-perfect.
     Diseño UX/UI: Daniel Aziah. En desarrollo`,
     desc: `Multidisciplinary studio producing stylised digital environments and a curated retail platform. 
     I developed the entire site using Sass and React, collaborating with UX/UI designer. 

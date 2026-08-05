@@ -57,7 +57,7 @@ function Main() {
           <img src={heroPhoto} alt="Brandon Castillo profile picture" />
         </figure>
         <h1>Brandon Castillo</h1>
-        <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
+        <h2>{leng ? " Desarrollador Full Stack" : "Full Stack Developer"}</h2>
      
         <p className="hero-description">
             {
@@ -66,14 +66,14 @@ function Main() {
                   <>
                     Construyo experiencias digitales inmersivas,
                     <span className="rainbow-hover"> interactivas</span>,
-                    y pixel-perfect para la web.
+                    y pixel-perfect.
                   </>
                 )
                 : (
                   <>
                     I build immersive,
                     <span className="rainbow-hover"> interactive</span>,
-                    pixel-perfect digital experiences for the web.
+                    pixel-perfect digital experiences.
                   </>
                 )
             }

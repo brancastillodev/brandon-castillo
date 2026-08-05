@@ -31,7 +31,7 @@ function Main() {
           <p className="about-body">
             {leng ? 
             <> 
-              Soy Desarrollador Front End con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
+              Soy Desarrollador Full Stack con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
               Disfruto trabajar en la intersección entre diseño y desarrollo, 
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
               Actualmente, soy frontend en{" "}
@@ -40,23 +40,23 @@ function Main() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                CGC MINC
+                Minc CG
               </a>, 
               donde traduzco diseños de alta fidelidad en experiencias 
               responsivas y accesibles, incluyendo animaciones en 3D e interacciones rápidas. Este es el trabajo del que estoy más orgulloso hasta la fecha.
             </> 
             :
             <> 
-              I'm a Front End Developer specializing building intuitive, immersive, pixel-perfect user interfaces. 
+              I'm a Full Stack Developer specializing in building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              Currently, I'm a Front End Developer at{" "}
+              Currently, I'm a Full Stack Developer at{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                MINC CG
+                Minc CG
               </a>, a multidisciplinary studio and a curated retail platform, 
               where I translate high-fidelity designs into a responsive and accessible experience,  
               including 3D animations and fast interactions. This is the work I'm most proud of till this date.
