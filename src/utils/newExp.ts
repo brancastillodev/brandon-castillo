@@ -4,15 +4,15 @@ const exp = [
     fecha: "DIC 2025 - ACTUALIDAD",
     title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
-    descEs: `Estudio multidisciplinario que crea entornos digitales con estilo y una plataforma de retail curada.
-    Armé el sitio completo con Sass y React, trabajando mano a mano con el diseñador UX/UI.
-    Optimicé las animaciones 3D para que funcionen bien en todos los dispositivos y navegadores.
-    Diseñé la base de datos del e-commerce y manejo la integración con Snipcart. Todo responsive y pixel-perfect.
-    Diseño UX/UI: Daniel Aziah. En desarrollo.`,
-    desc: `Multidisciplinary studio creating stylized digital environments and a curated retail platform.
-    I built the entire site with Sass and React, working closely with the UX/UI designer.
-    I optimized the 3D animations to work smoothly across all devices and browsers.
-    I designed the e-commerce database and handle the Snipcart integration. Everything responsive and pixel-perfect.
+    descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
+    Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
+    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio), como también navegadores (Chrome, Safari).
+    Realicé el diseñó base de datos del e-commerce y gestioné la integración con Snipcart, con una implementación responsive y pixel-perfect.
+    Diseño UX/UI: Daniel Aziah. En desarrollo`,
+    desc: `Multidisciplinary studio producing stylised digital environments and a curated retail platform. 
+    I developed the entire site using Sass and React, collaborating with UX/UI designer. 
+    I optimized the 3D animations and ensured their functionality across all devices (Mobile, Desktop) and browsers (Chrome, Safari).
+    I designed the e-commerce database and managed the Snipcart integration, with responsive pixel-perfect implementation. 
     UX/UI design by Daniel Aziah. Still in development.`,
     extra: [
       {name: "Figma", link: "https://www.figma.com/design/qPTA14mF6TFzwutCQ5f7PY/Minc-Designs?node-id=0-1&p=f&t=zJ6jqMvFwvZ3MxWJ-0"}
@@ -35,10 +35,10 @@ const exp = [
       {
     name: "Create and share images of your source code.",
     nombre: "Crea y comparte imágenes de tu código fuente.",
-    desc: `Sitio web que exporta fragmentos de código con diferentes paletas de colores y resaltado de sintaxis.
-    Desarrollo pixel-perfect, responsivo e interactivo. Tiene login de usuario y podés guardar tus estilos favoritos.`,
-    descEs: `Sitio web que exporta fragmentos de código con diferentes paletas de colores y resaltado de sintaxis.
-    Desarrollo pixel-perfect, responsivo e interactivo. Tiene login de usuario y podés guardar tus estilos favoritos.`,
+    desc: `Website that exports snippets of your source code with differents color palletes and highlight sintaxis. Pixel-perfect, responsive and interactive development. 
+    It includes user login and favorite style saving.`,
+    descEs: `Desarrollé un sitio web que exporta fragmentos de tu código fuente con diferentes paletas de colores y resaltado de sintaxis. 
+    Desarrollo pixel-perfect, responsivo e interactivo. Incluye inicio de sesión de usuario y guardado de estilos a favoritos. `,
     date: "JUN - JUL 2025",
     fecha: "JUN - JUL 2025",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
@@ -71,10 +71,14 @@ const exp = [
     date: "JUN - DEC 2024",
     fecha: "JUN - DEC 2024",
     web: "https://calles-construction.vercel.app/",
-    desc:`Freelance project. The company needed a custom way to manage their projects through a clean interface.
-    Armé un sitio simple pero potente donde pueden subir, modificar y eliminar trabajos por categoría (drywall, pintura, plomería, etc).`,
-    descEs: `Proyecto freelance. La empresa necesitaba una forma personalizada de gestionar sus proyectos con una interfaz limpia.
-    Armé un sitio simple pero potente donde pueden subir, modificar y eliminar trabajos por categoría (drywall, pintura, plomería, etc).`,
+    desc:`Freelance project where the company needed a custom solution 
+    to manage their own projects through a structured and easy-to-use interface. 
+    My solution was a simple but powerful site where the company can upload, modify and delete works based on different 
+    categories (drywall, painter, utilities, etc).`,
+    descEs: `Proyecto freelance en el que la empresa necesitaba una solución personalizada para gestionar sus
+    propios proyectos a través de una interfaz estructurada y fácil de usar.
+    Mi solución fue un sitio web simple pero potente donde la compañia puede subir, 
+    modificar y eliminar proyectos según distintas categorías (drywall, pintura, plomería, etc.).`,
     mainFeat: [
       {
         title: "Company Information",
@@ -117,10 +121,10 @@ const exp = [
     title: "Dreamer Paintings",
     web: "https://dreamer-paintings.vercel.app",
     github: "https://github.com/brandoncastillodev/dreamers-paintings",
-    desc: `Sitio para mostrar las obras de Dreamer Paintings. Trabajamos juntos para definir qué necesitaba y cómo quería que se sienta.
-    Fuimos construyendo y ajustando sobre la marcha. Todo con React, JavaScript y Sass.`,
-    descEs: `Sitio para mostrar las obras de Dreamer Paintings. Trabajamos juntos para definir qué necesitaba y cómo quería que se sienta.
-    Fuimos construyendo y ajustando sobre la marcha. Todo con React, JavaScript y Sass.`,
+    desc: `Website to showcase Dreamer Paintings' artwork. We worked together to define the needs and the UX/UI design. 
+    We built and made changes on the fly. Everything was developed with React, JavaScript, and Sass.`,
+    descEs: `Sitio web para mostrar las obras de Dreamer Paintings. Trabajamos juntos para definir
+     las necesidades y el diseño UX/UI. Fuimos construyendo y haciendo cambios sobre la marcha. Se desarrollo todo con React, JavaScript y Sass.`,
     mainFeat: [
       {
         title: "Gallery Exploration",
@@ -149,3 +153,9 @@ const exp = [
 ];
 
 export default exp;
+
+
+   // Contratación general en Nueva York, sitio web de Calle's Construction. Ofrece una cobertura detallada de cada proyecto realizado, 
+    // organizados en categorías según sus respectivos campos. El sitio incluye una galería de imágenes exclusiva y una sección para enviar
+    //  preguntas directamente a la empresa. Modo administrador para cargar y editar proyectos. El sitio web está completamente desarrollado y 
+    //  listo para usarse, pero actualmente está pendiente de activación por parte del cliente.`,

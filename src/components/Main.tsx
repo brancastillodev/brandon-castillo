@@ -31,9 +31,10 @@ function Main() {
           <p className="about-body">
             {leng ? 
             <> 
-              Soy Desarrollador Full Stack. Me especializo en crear interfaces que se sienten bien, se ven bien y funcionan bien.
-              Me gusta estar en el medio del diseño y el código, donde la experiencia del usuario se encuentra con código limpio y escalable.
-              Actualmente estoy en{" "}
+              Soy Desarrollador Full Stack con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
+              Disfruto trabajar en la intersección entre diseño y desarrollo, 
+              donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
+              Actualmente, soy frontend en{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
@@ -41,20 +42,24 @@ function Main() {
               >
                 Minc CG
               </a>, 
-              un estudio multidisciplinario donde transformo diseños de alta fidelidad en experiencias reales: animaciones 3D, interacciones rápidas, responsive y accesible. Es el proyecto del que más orgulloso estoy.
+              donde traduzco diseños de alta fidelidad en experiencias 
+              responsivas y accesibles, incluyendo animaciones en 3D e interacciones rápidas. Este es el trabajo del que estoy más orgulloso hasta la fecha.
             </> 
             :
             <> 
-              I'm a Full Stack Developer. I build interfaces that look good, feel good, and work good.
-              I like being in the middle of design and code, where user experience meets clean, scalable architecture.
-              Right now I'm at{" "}
+              I'm a Full Stack Developer specializing in building intuitive, immersive, pixel-perfect user interfaces. 
+              I enjoy working at the intersection of design and development, 
+              where great user experience meets robust, clean, and scalable code. 
+              Currently, I'm a Full Stack Developer at{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 Minc CG
-              </a>, a multidisciplinary studio where I turn high-fidelity designs into real experiences: 3D animations, fast interactions, responsive and accessible. It's the project I'm most proud of.
+              </a>, a multidisciplinary studio and a curated retail platform, 
+              where I translate high-fidelity designs into a responsive and accessible experience,  
+              including 3D animations and fast interactions. This is the work I'm most proud of till this date.
             </>}
           </p>
         </AnimatedSection>
