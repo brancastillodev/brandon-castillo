@@ -64,16 +64,16 @@ function Main() {
               leng
                 ? (
                   <>
-                    Construyo experiencias digitales inmersivas,
-                    <span className="rainbow-hover"> interactivas</span>,
-                    y pixel-perfect.
+                    Construyo interfaces que se sienten bien,
+                    <span className="rainbow-hover"> se ven bien</span>,
+                    y funcionan bien.
                   </>
                 )
                 : (
                   <>
-                    I build immersive,
-                    <span className="rainbow-hover"> interactive</span>,
-                    pixel-perfect digital experiences.
+                    I build interfaces that look good,
+                    <span className="rainbow-hover"> feel good</span>,
+                    and work good.
                   </>
                 )
             }
