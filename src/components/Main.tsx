@@ -1,5 +1,5 @@
 import exp from "../utils/newExp"
-import projects from "../utils/newProjects"
+import projects from "../utils/newAcademics"
 import NewExpCard from "../commons/NewExpCard"
 import NewProjectCard from "../commons/NewProjectCard"
 import Skills from "./Skills"
@@ -76,10 +76,23 @@ function Main() {
         </AnimatedSection>
 
         <AnimatedSection id="projects">
-          <h2>{leng ? "Proyectos":"Projects"}</h2>
+          <h2>{leng ? "Académico":"Academic"}</h2>
           {projects.map((ele,i)=>(
             <NewProjectCard proj={ele} key={i}/>
           ))}
+        </AnimatedSection>
+
+        <AnimatedSection id="my-projects">
+          <h2>{leng ? "Proyectos" : "Projects"}</h2>
+          <div className="proj-card__title">
+            <a className="exp-card__link" href="https://brandon-portfolio-phi.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <h4 className="proj-card__title__text">{leng ? "Ir a proyectos" : "Go to projects"}</h4>
+              <svg className="exp-card__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+            </a>
+          </div>
+          <figure className="proj-card__image">
+            <img src="https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786559860/Screenshot_2026-08-12_at_15-25-40_Brandon_Castillo_Portfolio_vwb1og.png" alt="Projects"></img>
+          </figure>
         </AnimatedSection>
 
         <AnimatedSection id="charts">

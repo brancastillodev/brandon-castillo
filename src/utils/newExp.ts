@@ -3,6 +3,7 @@ const exp = [
     date: "DEC 2025 - NOW",
     fecha: "DIC 2025 - ACTUALIDAD",
     title: "MINC CG",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555452/2026-08-12-14-15-42_iknyce.png",
     web: "https://cgcminc.vercel.app/",
     descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
     Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
@@ -28,48 +29,49 @@ const exp = [
     linksTools: [
       {
         title: "Behance",
-        link: "https://res.cloudinary.com/daynclfo8/image/upload/v1765988926/mobileHomeRework_mx7kmu.png",
+        link: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1765988926/mobileHomeRework_mx7kmu.png",
       },
     ],
   },
-      {
-    name: "Create and share images of your source code.",
-    nombre: "Crea y comparte imágenes de tu código fuente.",
-    desc: `Website that exports snippets of your source code with differents color palletes and highlight sintaxis. Pixel-perfect, responsive and interactive development. 
-    It includes user login and favorite style saving.`,
-    descEs: `Desarrollé un sitio web que exporta fragmentos de tu código fuente con diferentes paletas de colores y resaltado de sintaxis. 
-    Desarrollo pixel-perfect, responsivo e interactivo. Incluye inicio de sesión de usuario y guardado de estilos a favoritos. `,
-    date: "JUN - JUL 2025",
-    fecha: "JUN - JUL 2025",
-    image: "https://res.cloudinary.com/daynclfo8/image/upload/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
-    title: "Carbon Copy",
-    photos: [
-     "https://res.cloudinary.com/daynclfo8/image/upload/v1768158039/2026-01-11-15-57-10_wgtj9p.png"
-    ],
-    web: "https://carbon-copy-omega.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
-    github: "http://github.com/brandoncastillodev/carbon-copy",
-    extra: [
-      {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"},
-      {name: "Trello", link: "https://trello.com/b/wG0M4H0J/carbon-copy"}
-    ],
-    mainFeat: [
-      {
-        title: "Faster easier song searcher",
-        desc: "Easily search for your favorite songs with this intuitive tool.",
-      },
-    ],
-    techs: [
-      "PostgreSQL",
-      "React",
-      "OAuth2.0",
-      "Node.js",
-    ],
-  },
+  // {
+  //   name: "Create and share images of your source code.",
+  //   nombre: "Crea y comparte imágenes de tu código fuente.",
+  //   desc: `Website that exports snippets of your source code with differents color palletes and highlight sintaxis. Pixel-perfect, responsive and interactive development. 
+  //   It includes user login and favorite style saving.`,
+  //   descEs: `Desarrollé un sitio web que exporta fragmentos de tu código fuente con diferentes paletas de colores y resaltado de sintaxis. 
+  //   Desarrollo pixel-perfect, responsivo e interactivo. Incluye inicio de sesión de usuario y guardado de estilos a favoritos. `,
+  //   date: "JUN - JUL 2025",
+  //   fecha: "JUN - JUL 2025",
+  //   image: "https://res.cloudinary.com/daynclfo8/image/upload/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
+  //   title: "Carbon Copy",
+  //   photos: [
+  //    "https://res.cloudinary.com/daynclfo8/image/upload/v1768158039/2026-01-11-15-57-10_wgtj9p.png"
+  //   ],
+  //   web: "https://carbon-copy-omega.vercel.app/",
+  //   youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
+  //   github: "http://github.com/brandoncastillodev/carbon-copy",
+  //   extra: [
+  //     {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"},
+  //     {name: "Trello", link: "https://trello.com/b/wG0M4H0J/carbon-copy"}
+  //   ],
+  //   mainFeat: [
+  //     {
+  //       title: "Faster easier song searcher",
+  //       desc: "Easily search for your favorite songs with this intuitive tool.",
+  //     },
+  //   ],
+  //   techs: [
+  //     "PostgreSQL",
+  //     "React",
+  //     "OAuth2.0",
+  //     "Node.js",
+  //   ],
+  // },
   {
     title: "Calles Construction",
     date: "JUN - DEC 2024",
     fecha: "JUN - DEC 2024",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555326/Screenshot_2026-08-12_at_14-17-00_Calle_Construction_qhudb4.png",
     web: "https://calles-construction.vercel.app/",
     desc:`Freelance project where the company needed a custom solution 
     to manage their own projects through a structured and easy-to-use interface. 
@@ -119,6 +121,7 @@ const exp = [
     date: "JAN - FEB 2024",
     fecha: "ENE - FEB 2024",
     title: "Dreamer Paintings",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555423/2026-08-12-14-21-04_tlyq4x.png",
     web: "https://dreamer-paintings.vercel.app",
     github: "https://github.com/brandoncastillodev/dreamers-paintings",
     desc: `Website to showcase Dreamer Paintings' artwork. We worked together to define the needs and the UX/UI design. 

@@ -33,6 +33,13 @@ function NewExpCard({exp}){
         </div>
       )}
 
+      {/* image */}
+      {exp.image && (
+        <figure className="exp-card__image">
+          <img src={exp.image} alt={exp.title}></img>
+        </figure>
+      )}
+
       {/* technologies */}
       <ul className="exp-card__techs"> 
         {exp.techs.map((ele:string)=>(

@@ -139,7 +139,8 @@ function Main() {
         <a href="#about">{leng ? "Sobre mí" : "About"}</a>
         <a href="#skills">{leng ? "Skills" : "Skills"}</a>
         <a href="#experience">{leng ? "Experiencia" : "Experience"}</a>
-        <a href="#projects">{leng ? "Proyectos" : "Projects"}</a>
+        <a href="#projects">{leng ? "Académico" : "Academic"}</a>
+        <a href="#my-projects">{leng ? "Proyectos" : "Projects"}</a>
         <a href="#charts">Charts</a>
         <a href="#contact">{leng ? "Contacto" : "Contact"}</a>
       </div>
