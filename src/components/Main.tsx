@@ -91,7 +91,7 @@ function Main() {
             </a>
           </div>
           <figure className="proj-card__image">
-            <img src="https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786559860/Screenshot_2026-08-12_at_15-25-40_Brandon_Castillo_Portfolio_vwb1og.png" alt="Projects"></img>
+            <img src="https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786559860/2026-08-12-16-10-47_goqyjz.png" alt="Projects"></img>
           </figure>
         </AnimatedSection>
 
