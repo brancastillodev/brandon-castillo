@@ -342,6 +342,12 @@ svg {
   max-width: 64ch;
 }
 
+@media (min-width: 1150px) {
+  .proj-card__desc {
+    max-width: 40ch;
+  }
+}
+
 .proj-card__image {
   margin-top: 0.5rem;
   width: 50%;

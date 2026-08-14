@@ -149,7 +149,7 @@ const projects = [
     inicio: "Nov 2023",
     final: "Dec 2023",
     date: "Nov - Dec 2023",
-    web: "https://my-movie-crib-front.vercel.app/",
+    web: "https://my-movie-crib.vercel.app/",
     github: "http://github.com/brancastillodev/my-movie-crib",
     mainFeat: [
       {
