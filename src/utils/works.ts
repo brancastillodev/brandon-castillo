@@ -10,7 +10,7 @@ const works = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1767315491/2026-01-01-21-57-29_c8rsci.png"],
     web: "https://cgcminc.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
-    github: "https://github.com/brandoncastillodev/minc.cg/",
+    github: "https://github.com/brancastillodev/minc.cg/",
     desc:
       "Website developed for the company CGC Minc. Designed to connect like-minded people, build a community, share videos that reflect common values, and enable the buying and selling of unique clothing, accessories and more. [Currently in development]. Frontend: Brandon Castillo. Design UX/UI: Daniel Aziah",
     descripcion:
@@ -120,7 +120,7 @@ const works = [
     inicio: "Apr 2024",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=ihcTIHnBINU",
-    github: "https://github.com/brandoncastillodev/dreamers-paintings",
+    github: "https://github.com/brancastillodev/dreamers-paintings",
     desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available for purchase as a unique NFT (Non-Fungible Token). Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.",
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1734135489/dreamergif.gif",

@@ -14,7 +14,7 @@ const edu = [
     works: [
       { nombre: "Parallel Matrix Processing & Data Computation",
         nombreTarea: "First Assignment",
-        github: "https://github.com/brandoncastillodev/Castillo.Brandon.PrimerParcial.SegundaParte"
+        github: "https://github.com/brancastillodev/Castillo.Brandon.PrimerParcial.SegundaParte"
       },
       { nombre: "Game with User Management and High Scores System",
         nombreTarea: "Second Assignment",
@@ -54,15 +54,15 @@ const edu = [
     works: [
       { nombre: "Interactive Movie Search App with User Authentication and Favorite",
         nombreTarea: "Solo Week Assignment",
-        github: "https://github.com/brandoncastillodev/my-movie-crib-client"
+        github: "https://github.com/brancastillodev/my-movie-crib-client"
       },
       { nombre: "Real Estate Platform with Favorites, Booking & Admin Controls",
         nombreTarea: "Integrated Final Project",
-        github: "https://github.com/brandoncastillodev/house-of-dev-client-deploy"
+        github: "https://github.com/brancastillodev/house-of-dev-client-deploy"
       }, 
       { nombre: "Carbon Copy",
         nombreTarea: "Capsula Project",
-        github: "https://github.com/brandoncastillodev/carbon-copy"
+        github: "https://github.com/brancastillodev/carbon-copy"
       }, 
      ]
   },

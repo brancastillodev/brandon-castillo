@@ -98,8 +98,8 @@ function Main() {
         <AnimatedSection id="charts">
           <h2>Charts</h2>
           <img
-            src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
-            alt="brandoncastillodev's Github chart"
+            src="http://ghchart.rshah.org/3fc761/brancastillodev"
+            alt="brancastillodev's Github chart"
           />
         </AnimatedSection>
 

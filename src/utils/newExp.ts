@@ -49,7 +49,7 @@ const exp = [
   //   ],
   //   web: "https://carbon-copy-omega.vercel.app/",
   //   youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
-  //   github: "http://github.com/brandoncastillodev/carbon-copy",
+  //   github: "http://github.com/brancastillodev/carbon-copy",
   //   extra: [
   //     {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"},
   //     {name: "Trello", link: "https://trello.com/b/wG0M4H0J/carbon-copy"}
@@ -123,7 +123,7 @@ const exp = [
     title: "Dreamer Paintings",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555423/2026-08-12-14-21-04_tlyq4x.png",
     web: "https://dreamer-paintings.vercel.app",
-    github: "https://github.com/brandoncastillodev/dreamers-paintings",
+    github: "https://github.com/brancastillodev/dreamers-paintings",
     desc: `Website to showcase Dreamer Paintings' artwork. We worked together to define the needs and the UX/UI design. 
     We built and made changes on the fly. Everything was developed with React, JavaScript, and Sass.`,
     descEs: `Sitio web para mostrar las obras de Dreamer Paintings. Trabajamos juntos para definir

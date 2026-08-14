@@ -12,7 +12,7 @@ const exp = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1767360213/2026-01-02-10-21-18_t8acgo.png"],
     web: "https://minc-cg.com/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
-    github: "https://github.com/brandoncastillodev/minc.cg/",
+    github: "https://github.com/brancastillodev/minc.cg/",
     desc:
       "Website developed for the company CGC Minc. Designed to connect like-minded people, build a community, share videos that reflect common values, and enable the buying and selling of unique clothing, accessories and more. [Currently in development]. Frontend: Brandon Castillo. Design UX/UI: Daniel Aziah",
     descripcion:
@@ -124,7 +124,7 @@ const exp = [
     inicio: "Apr 2024",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=ihcTIHnBINU",
-    github: "https://github.com/brandoncastillodev/dreamers-paintings",
+    github: "https://github.com/brancastillodev/dreamers-paintings",
     desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available for purchase as a unique NFT (Non-Fungible Token). Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.",
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1734135489/dreamergif.gif",
@@ -166,7 +166,7 @@ const exp = [
     title: "Carbon Copy",
     inicio: "Dec 2023",
     final: "Jan 2024",
-    github: "https://github.com/brandoncastillodev/carbon-copy",
+    github: "https://github.com/brancastillodev/carbon-copy",
     youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     web: "http://carbon-copy-omega.vercel.app",
     desc: "A website built with React and Node.js that allows users to format and style code snippets with custom colors and designs, then export them as images. Users can save and manage their favorite styles for quick reuse and enjoy a fully responsive experience across all devices. Designed with an intuitive interface, it simplifies the process of creating and sharing visually appealing code snippets.",
@@ -227,7 +227,7 @@ const exp = [
     title: "House of Dev",
     inicio: "Ago 2023",
     final: "Sep 2023",
-    github: "https://github.com/brandoncastillodev/house-of-dev-client-deploy",
+    github: "https://github.com/brancastillodev/house-of-dev-client-deploy",
     youtube: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     web: "https://house-of-dev-client.vercel.app",
     desc: "Website showcasing various properties in the city of Buenos Aires. It is an educational project from Plataforma 5, featuring a variety of functionalities. The website allows users to manage property listings (create, edit, delete) and schedule appointments with confirmation emails. It includes user account management and the ability to like properties. Advanced filtering options let users search by city, neighborhood, number of rooms, and more. Properties can be displayed based on specific rules, such as for sale or rent. The platform provides a seamless experience for browsing and interacting with properties.",
@@ -291,7 +291,7 @@ const exp = [
     date: "Jul 2023",
     inicio: "Jul 2023",
     final: "Jul 2023",
-    github: "https://github.com/brandoncastillodev",
+    github: "https://github.com/brancastillodev",
     youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     web: "https://my-movie-crib.vercel.app/",
     desc: "Website for looking for the latest movies, search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
@@ -347,7 +347,7 @@ const exp = [
     date: "Jul 2024",
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-    github: "http://github.com/brandoncastillodev/givemeayugiohcard",
+    github: "http://github.com/brancastillodev/givemeayugiohcard",
     desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection. Build it with NodeJs, Express and React. It use an external API.",
     mainFeat: [
       {
@@ -377,7 +377,7 @@ const exp = [
     ],
     web: "https://your-mood.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
-    github: "https://github.com/brandoncastillodev/your-mood",
+    github: "https://github.com/brancastillodev/your-mood",
     desc: "A website that gives you a song based on your mood.",
     inicio: "May 2024",
     final: "May 2024",
@@ -400,7 +400,7 @@ const exp = [
     date: "Mar 2024",
     web: "https://youfast.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
-    github: "http://github.com/brandoncastillodev/youfast",
+    github: "http://github.com/brancastillodev/youfast",
     desc: "A tool designed to help elders easily search for songs on YouTube.",
 
     mainFeat: [

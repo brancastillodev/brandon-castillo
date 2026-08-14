@@ -11,7 +11,7 @@ const projects = [
     date: "Jul 2024",
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-    github: "http://github.com/brandoncastillodev/givemeayugiohcard",
+    github: "http://github.com/brancastillodev/givemeayugiohcard",
     desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection. Build it with NodeJs, Express and React. It use an external API.",
     mainFeat: [
       {
@@ -41,7 +41,7 @@ const projects = [
     ],
     web: "https://your-mood.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
-    github: "https://github.com/brandoncastillodev/your-mood",
+    github: "https://github.com/brancastillodev/your-mood",
     desc: "A website that gives you a song based on your mood.",
     inicio: "May 2024",
     final: "May 2024",
@@ -64,7 +64,7 @@ const projects = [
     date: "Mar 2024",
     web: "https://youfast.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
-    github: "http://github.com/brandoncastillodev/youfast",
+    github: "http://github.com/brancastillodev/youfast",
     desc: "A tool designed to help elders easily search for songs on YouTube.",
 
     mainFeat: [

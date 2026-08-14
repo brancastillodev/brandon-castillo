@@ -9,7 +9,7 @@ const projects = [
   //   date: "Jul 2024",
   //   web: "https://givemeayugiohcard.vercel.app/",
   //   youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-  //   github: "http://github.com/brandoncastillodev/givemeayugiohcard",
+  //   github: "http://github.com/brancastillodev/givemeayugiohcard",
   //   mainFeat: [
   //     {
   //       title: "Draw a Random Card",
@@ -33,7 +33,7 @@ const projects = [
   //   ],
   //   web: "https://your-mood.vercel.app/",
   //   youtube: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
-  //   github: "https://github.com/brandoncastillodev/your-mood",
+  //   github: "https://github.com/brancastillodev/your-mood",
   //   inicio: "May 2024",
   //   final: "May 2024",
   //   date: "May 2024",
@@ -59,7 +59,7 @@ const projects = [
   //   date: "Mar 2024",
   //   web: "https://youfast.vercel.app/",
   //   youtube: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
-  //   github: "http://github.com/brandoncastillodev/youfast",
+  //   github: "http://github.com/brancastillodev/youfast",
   //   mainFeat: [
   //     {
   //       title: "Faster easier song searcher",
@@ -82,7 +82,7 @@ const projects = [
     date: "May 2026",
     web: "https://carbon-copy-omega.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
-    github: "http://github.com/brandoncastillodev/carbon-copy",
+    github: "http://github.com/brancastillodev/carbon-copy",
     extra: [
       {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"},
       {name: "Trello", link: "https://trello.com/b/wG0M4H0J/carbon-copy"}
@@ -113,7 +113,7 @@ const projects = [
     date: "Ago - Sep 2023",
     web: "https://house-of-dev-client.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
-    github: "http://github.com/brandoncastillodev/house-of-dev-client-deploy",
+    github: "http://github.com/brancastillodev/house-of-dev-client-deploy",
     extra: [
       {name: "Figma", link: "https://www.figma.com/design/EIQHhLYGbQIcoeNqQwustP/C%C3%A1psula-Integrador---House-of-Dev?node-id=0-1&t=1lmCcGreKAxzfqNm-1"}
     ],
@@ -150,7 +150,7 @@ const projects = [
     final: "Dec 2023",
     date: "Nov - Dec 2023",
     web: "https://my-movie-crib-front.vercel.app/",
-    github: "http://github.com/brandoncastillodev/my-movie-crib",
+    github: "http://github.com/brancastillodev/my-movie-crib",
     mainFeat: [
       {
         title: "Movie Search",
