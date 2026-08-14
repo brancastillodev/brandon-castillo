@@ -339,6 +339,7 @@ svg {
 .proj-card__desc {
   margin-top: 0.5rem;
   color: var(--text-secondary);
+  max-width: 64ch;
 }
 
 .proj-card__image {
