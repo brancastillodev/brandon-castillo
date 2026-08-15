@@ -1,26 +1,26 @@
 const projects = [
-  // {
-  //   name: "Get a Yu-Gi-Oh! card",
-  //   nombre: "Obtené una carta Yu-Gi-Oh!",
-  //   desc: "Built in 1 hour. It uses YGOPRODeck API. It gives you a total random Yu-Gi-Oh! card from the whole collection. Sometimes it can be slow.",
-  //   descEs: "Construido en 1 hora. Usa la API de YGOPRODeck. Te da una carta totalmente random de Yu-Gi-Oh! de toda la colección. A veces puede ser lento.",
-  //   image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
-  //   final: "Jul 2024",
-  //   date: "Jul 2024",
-  //   web: "https://givemeayugiohcard.vercel.app/",
-  //   youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-  //   github: "http://github.com/brancastillodev/givemeayugiohcard",
-  //   mainFeat: [
-  //     {
-  //       title: "Draw a Random Card",
-  //       desc: "Fetch a random Yu-Gi-Oh! card from YGOPRODeck, the most comprehensive and regularly updated Yu-Gi-Oh! API.",
-  //     },
-  //     {
-  //       title: "Save the image",
-  //       desc: "Click on the card image to save it in full resolution.",
-  //     },
-  //   ],
-  // },
+  {
+    name: "Get a Yu-Gi-Oh! card",
+    nombre: "Obtené una carta Yu-Gi-Oh!",
+    desc: "Built in 1 hour. It uses YGOPRODeck API. It gives you a total random Yu-Gi-Oh! card from the whole collection. Sometimes it can be slow.",
+    descEs: "Construido en 1 hora. Usa la API de YGOPRODeck. Te da una carta totalmente random de Yu-Gi-Oh! de toda la colección. A veces puede ser lento.",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
+    final: "Jul 2024",
+    date: "Jul 2024",
+    web: "https://givemeayugiohcard.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
+    github: "http://github.com/brancastillodev/givemeayugiohcard",
+    mainFeat: [
+      {
+        title: "Draw a Random Card",
+        desc: "Fetch a random Yu-Gi-Oh! card from YGOPRODeck, the most comprehensive and regularly updated Yu-Gi-Oh! API.",
+      },
+      {
+        title: "Save the image",
+        desc: "Click on the card image to save it in full resolution.",
+      },
+    ],
+  },
   // {
   //   name: "Music curation by mood",
   //   nombre: "Curaduría de música por emociones",
