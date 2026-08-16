@@ -259,7 +259,6 @@ section {
     width: 100%;
   }
 }
-
 .exp-card__extra-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -272,6 +271,7 @@ section {
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
+
 .exp-card__extra {
   margin-bottom: 0;
 }
@@ -347,7 +347,6 @@ svg {
     max-width: 40ch;
   }
 }
-
 .proj-card__image {
   margin-top: 0.5rem;
   width: 50%;
@@ -362,7 +361,6 @@ svg {
     width: 100%;
   }
 }
-
 .extra-project-links {
   display: flex;
   gap: 1rem;
