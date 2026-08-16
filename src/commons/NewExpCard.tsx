@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import ImageModal from "./ImageModal";
+import ImageModal, { preloadImage } from "./ImageModal";
 
 function NewExpCard({exp}){
   const leng = useSelector(state => state.lang.esp);
@@ -43,6 +43,7 @@ function NewExpCard({exp}){
             src={exp.image}
             alt={exp.title}
             onClick={() => setZoom(true)}
+            onMouseEnter={() => preloadImage(exp.image)}
             style={{ cursor: "pointer" }}
           ></img>
         </figure>

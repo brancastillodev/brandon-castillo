@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import left from "../assets/icons/arrow-left-circle.svg";
 import right from "../assets/icons/arrow-right-circle.svg";
-import ImageModal from "./ImageModal";
+import ImageModal, { preloadImage } from "./ImageModal";
 
 function ExpCard({ card, disparador }) {
   const [numImg, setNumImg] = useState(0);
@@ -23,6 +23,7 @@ function ExpCard({ card, disparador }) {
             src={card.photos[numImg]}
             alt={card.title}
             onClick={() => setZoom(true)}
+            onMouseEnter={() => preloadImage(card.photos[numImg])}
             style={{ cursor: "pointer" }}
           />
           {numImg > 0 && (

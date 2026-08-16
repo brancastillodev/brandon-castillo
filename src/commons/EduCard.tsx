@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ImageModal from "./ImageModal";
+import ImageModal, { preloadImage } from "./ImageModal";
 
 function EduCard({ card }) {
   const [zoom, setZoom] = useState(false);
@@ -12,6 +12,7 @@ function EduCard({ card }) {
           src={card.photos[0]}
           alt={card.title}
           onClick={() => setZoom(true)}
+          onMouseEnter={() => preloadImage(card.photos[0])}
           style={{ cursor: "pointer" }}
         />
       </figure>

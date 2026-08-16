@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import ImageModal from "./ImageModal";
+import ImageModal, { preloadImage } from "./ImageModal";
 
 function NewProjectCard({proj}){
   const leng = useSelector(state => state.lang.esp);
@@ -32,6 +32,7 @@ function NewProjectCard({proj}){
           src={proj.image}
           alt={proj.title}
           onClick={() => setZoom(true)}
+          onMouseEnter={() => preloadImage(proj.image)}
           style={{ cursor: "pointer" }}
         ></img>
       </figure>
