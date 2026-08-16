@@ -35,16 +35,22 @@ function Main() {
               Soy Desarrollador Full Stack con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
               Disfruto trabajar en la intersección entre diseño y desarrollo, 
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
-              Actualmente, soy frontend en{" "}
+              Actualmente, mi último trabajo fue el sitio{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Minc CG
+                Minc Cg
               </a>, 
-              donde traduzco diseños de alta fidelidad en experiencias 
-              responsivas y accesibles, incluyendo animaciones en 3D e interacciones rápidas. Este es el trabajo del que estoy más orgulloso hasta la fecha.
+              donde contacté al creador debido a que me gustaba su material y le propuse colaborar, ese fue el resultado. Ahora estoy desarrollando una app web,{" "}
+              <a 
+                href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Follow Your Series
+              </a>, que se trata de un centro de registro de episodios, y demás detalles sobre tus series favoritas.
             </> 
             :
             <> 
