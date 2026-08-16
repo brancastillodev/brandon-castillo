@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ImageModal from "./ImageModal";
 
 function EduCard({ card }) {
+  const [zoom, setZoom] = useState(false);
   return (
     <div className="edu-card">
       <h3 className="sub-title">{card.title}</h3>
       <figure style={{ aspectRatio: card.res }}>
-        <img src={card.photos[0]} alt={card.title} />
+        <img
+          src={card.photos[0]}
+          alt={card.title}
+          onClick={() => setZoom(true)}
+          style={{ cursor: "pointer" }}
+        />
       </figure>
+      <ImageModal
+        open={zoom}
+        src={card.photos[0]}
+        alt={card.title}
+        onClose={() => setZoom(false)}
+      />
       {card.title ==
         "National School of Cinematographic Experimentation and Realization (ENERC)" && (
         <>

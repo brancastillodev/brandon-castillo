@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
+import ImageModal from "./ImageModal";
 
 function NewProjectCard({proj}){
   const leng = useSelector(state => state.lang.esp);
+  const [zoom, setZoom] = useState(false);
 
   return(
     <div className="proj-card">
@@ -25,8 +28,19 @@ function NewProjectCard({proj}){
         </div>
       )}
       <figure className="proj-card__image">
-        <img src={proj.image} alt={proj.title}></img>
+        <img
+          src={proj.image}
+          alt={proj.title}
+          onClick={() => setZoom(true)}
+          style={{ cursor: "pointer" }}
+        ></img>
       </figure>
+      <ImageModal
+        open={zoom}
+        src={proj.image}
+        alt={proj.title}
+        onClose={() => setZoom(false)}
+      />
     </div>
   )
 }

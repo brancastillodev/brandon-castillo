@@ -93,3 +93,75 @@ section,
   .layout
     display: flex
     justify-content: center
+
+// image modal (react-modal) ----------
+.image-modal__overlay
+  position: fixed
+  inset: 0
+  z-index: 1000
+  background-color: rgba(0, 0, 0, 0.85)
+  display: flex
+  align-items: center
+  justify-content: center
+  animation: image-modal-fade 0.25s ease
+
+.image-modal
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  outline: none
+  background: none
+  padding: 0
+  animation: image-modal-zoom 0.25s ease
+
+  &__img
+    max-width: 96vw
+    max-height: 96vh
+    width: auto
+    height: auto
+    object-fit: contain
+    border-radius: 8px
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6)
+
+  &__btn
+    position: absolute
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 2.5rem
+    height: 2.5rem
+    border: none
+    border-radius: 50%
+    background-color: rgba(255, 255, 255, 0.15)
+    color: #fff
+    font-size: 1.2rem
+    line-height: 1
+    cursor: pointer
+    z-index: 1
+    transition: background-color 0.2s ease
+
+    &:hover
+      background-color: rgba(255, 255, 255, 0.3)
+
+    &--close
+      top: -3.5rem
+      right: 0
+
+    &--prev
+      left: -3.5rem
+
+    &--next
+      right: -3.5rem
+
+@keyframes image-modal-fade
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes image-modal-zoom
+  from
+    transform: scale(0.9)
+  to
+    transform: scale(1)

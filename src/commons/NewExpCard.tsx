@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
+import ImageModal from "./ImageModal";
 
 function NewExpCard({exp}){
   const leng = useSelector(state => state.lang.esp);
+  const [zoom, setZoom] = useState(false);
 
   return(
     <div className="exp-card">
@@ -36,9 +39,20 @@ function NewExpCard({exp}){
       {/* image */}
       {exp.image && (
         <figure className="exp-card__image">
-          <img src={exp.image} alt={exp.title}></img>
+          <img
+            src={exp.image}
+            alt={exp.title}
+            onClick={() => setZoom(true)}
+            style={{ cursor: "pointer" }}
+          ></img>
         </figure>
       )}
+      <ImageModal
+        open={zoom}
+        src={exp.image}
+        alt={exp.title}
+        onClose={() => setZoom(false)}
+      />
 
       {/* technologies */}
       <ul className="exp-card__techs"> 

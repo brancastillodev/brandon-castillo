@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import left from "../assets/icons/arrow-left-circle.svg";
 import right from "../assets/icons/arrow-right-circle.svg";
+import ImageModal from "./ImageModal";
 
 function ExpCard({ card, disparador }) {
   const [numImg, setNumImg] = useState(0);
+  const [zoom, setZoom] = useState(false);
 
   useEffect(() => {
     setNumImg(0);
@@ -17,7 +19,12 @@ function ExpCard({ card, disparador }) {
 
       <section className="works-image">
         <figure style={{ aspectRatio: "1280 / 714" }}>
-          <img src={card.photos[numImg]} alt={card.title} />
+          <img
+            src={card.photos[numImg]}
+            alt={card.title}
+            onClick={() => setZoom(true)}
+            style={{ cursor: "pointer" }}
+          />
           {numImg > 0 && (
             <figcaption
               id="left"
@@ -53,6 +60,27 @@ function ExpCard({ card, disparador }) {
           )}
         </figure>
       </section>
+
+      <ImageModal
+        open={zoom}
+        src={card.photos[numImg]}
+        alt={card.title}
+        onClose={() => setZoom(false)}
+        onPrev={
+          numImg > 0
+            ? () => {
+                setNumImg(numImg - 1);
+              }
+            : undefined
+        }
+        onNext={
+          numImg < card.photos.length - 1
+            ? () => {
+                setNumImg(numImg + 1);
+              }
+            : undefined
+        }
+      />
 
       <section className="works-links">
         <p>
