@@ -824,7 +824,8 @@ section,
   animation: image-modal-zoom 0.25s ease;
 }
 .image-modal__img {
-  max-width: 96vw;
+  width: 100%;
+  max-width: 1000px;
   max-height: 96vh;
   width: auto;
   height: auto;
