@@ -43,30 +43,37 @@ function Main() {
               >
                 Minc Cg
               </a>, 
-              donde contacté al creador debido a que me gustaba su material y le propuse colaborar, ese fue el resultado. Ahora estoy desarrollando una app web,{" "}
+              donde contacté al creador debido a que me gustaba su <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">material</a> (diseños y animaciones 3D), y le propuse colaborar, luego de varios archivos enviados, logramos terminarlo, superando por completo nuestras expectativas. Ahora estoy desarrollando una app web,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 Follow Your Series
-              </a>, que se trata de un centro de registro de episodios, y demás detalles sobre tus series favoritas.
+              </a>, que es una web app de registro de episodios y demás detalles sobre tus series y animes favoritos.
             </> 
             :
             <> 
               I'm a Full Stack Developer specializing in building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              Currently, I'm a Full Stack Developer at{" "}
+              Currently, my latest work was the site{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Minc CG
-              </a>, a multidisciplinary studio and a curated retail platform, 
-              where I translate high-fidelity designs into a responsive and accessible experience,  
-              including 3D animations and fast interactions. This is the work I'm most proud of till this date.
+                Minc Cg
+              </a>, 
+              where I reached out to the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">material</a> (designs and 3D animations), 
+              and proposed a collaboration. After several files sent, we finished it, completely exceeding our expectations. Now I'm developing a web app,{" "}
+              <a 
+                href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Follow Your Series
+              </a>, which is a web app for tracking episodes and other details about your favorite series and anime.
             </>}
           </p>
         </AnimatedSection>
