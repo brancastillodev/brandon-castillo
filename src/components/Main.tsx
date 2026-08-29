@@ -35,7 +35,7 @@ function Main() {
               Soy Desarrollador Full Stack con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
               Disfruto trabajar en la intersección entre diseño y desarrollo, 
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
-              Actualmente, mi último trabajo fue el sitio{" "}
+              Mi último trabajo fue el sitio{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
@@ -43,7 +43,7 @@ function Main() {
               >
                 Minc Cg
               </a>, 
-              donde contacté al creador debido a que me gustaba su <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">material</a> (diseños y animaciones 3D), y le propuse colaborar, luego de varios archivos enviados, logramos terminarlo, superando por completo nuestras expectativas. Ahora estoy desarrollando una app web,{" "}
+              donde contacté al creador debido a que me gustaba su <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">material</a> (diseños y animaciones 3D), y le propuse colaborar. Luego de varios archivos enviados, superamos completamente nuestras expectativas. Ahora estoy desarrollando una app web,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
                 target="_blank" 
@@ -57,7 +57,7 @@ function Main() {
               I'm a Full Stack Developer specializing in building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              Currently, my latest work was the site{" "}
+              My latest work was the site{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
@@ -66,7 +66,7 @@ function Main() {
                 Minc Cg
               </a>, 
               where I reached out to the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">material</a> (designs and 3D animations), 
-              and proposed a collaboration. After several files sent, we finished it, completely exceeding our expectations. Now I'm developing a web app,{" "}
+              and proposed a collaboration. After several files sent, we completely exceeded our expectations. Now I'm developing a web app,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
                 target="_blank" 
