@@ -137,7 +137,7 @@ function Main() {
 
       <div className="navbar-links">
         <a href="#about">{leng ? "Sobre mí" : "About"}</a>
-        <a href="#skills">{leng ? "Skills" : "Skills"}</a>
+        <a href="#skills">{leng ? "Habilidades" : "Skills"}</a>
         <a href="#experience">{leng ? "Experiencia" : "Experience"}</a>
         <a href="#projects">{leng ? "Académico" : "Academic"}</a>
         <a href="#my-projects">{leng ? "Proyectos" : "Projects"}</a>
