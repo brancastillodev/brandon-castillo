@@ -4,7 +4,7 @@ const exp = [
     fecha: "DIC 2025 - ACTUALIDAD",
     title: "MINC CG",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555452/2026-08-12-14-15-42_iknyce.png",
-    web: "https://cgcminc.vercel.app/",
+    web: "https://minc-cg.com",
     descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
     Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
     Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio), como también navegadores (Chrome, Safari).
