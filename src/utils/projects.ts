@@ -37,8 +37,8 @@ const projects = [
   {
     name: "Your Mood",
     nombre: "Your Mood",
-    desc: "An app that recommends songs based on your mood with 10 different emotions and YouTube playback.",
-    descEs: "Una app que recomienda canciones según tu estado de ánimo con 10 emociones y reproducción en YouTube.",
+    desc: "Song recommender where you pick from 10 emotions and it plays something that matches.",
+    descEs: "Recomendador de canciones donde seleccionás entre 10 emociones y reproduce una que coincide.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1768150121/2026-01-11-13-48-29_zktvzz.png",
     title: "Your Mood",
     photos: [
