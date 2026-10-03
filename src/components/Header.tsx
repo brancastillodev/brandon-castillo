@@ -57,7 +57,7 @@ function Main() {
           <img src={heroPhoto} alt="Brandon Castillo profile picture" />
         </figure>
         <h1>Brandon Castillo</h1>
-        <h2>{leng ? " Desarrollador Full Stack" : "Full Stack Developer"}</h2>
+        <h2>{leng ? " Desarrollador Full Stack Jr" : "Full Stack Jr Developer"}</h2>
      
         <p className="hero-description">
             {
