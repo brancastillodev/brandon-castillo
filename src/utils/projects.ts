@@ -1,5 +1,21 @@
 const projects = [
   {
+    name: "Canta",
+    nombre: "Canta",
+    desc: "A program that detects the song that's playing with Shazam and shows you the lyrics right in your terminal.",
+    descEs: "Un programa que detecta la canción que está sonando con Shazam y te muestra la letra directamente en tu terminal.",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_auto,q_auto,w_800/v1789919003/canta-demo0002_rbaa7s.png",
+    title: "Canta",
+    photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_auto,q_auto,w_800/v1789919003/canta-demo0002_rbaa7s.png",
+    ],
+    web: "https://github.com/brancastillodev/canta",
+    github: "https://github.com/brancastillodev/canta",
+    date: "Sept 2025",
+    extra: [
+    ],
+  },
+  {
     name: "YouFast",
     nombre: "YouFast",
     desc: "A simplified YouTube search tool designed for elderly users with large buttons and instant playback.",
@@ -37,21 +53,21 @@ const projects = [
     extra: [
     ],
   },
-  {
-    name: "Musicólogo Bot",
-    nombre: "Musicólogo Bot",
-    desc: "An AI chatbot specialized in music history, artists, and release dates with bilingual support.",
-    descEs: "Un chatbot con IA especializado en historia de la música, artistas y fechas de lanzamiento con soporte bilingüe.",
-    image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786644166/2026-08-13-15-02-38_dxxplm.png",
-    title: "Musicólogo Bot",
-    photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786644166/2026-08-13-15-02-38_dxxplm.png",
-    ],
-    web: "https://musicologo-bot.vercel.app/",
-    github: "https://github.com/brancastillodev/musicologo-bot",
-    extra: [
-    ],
-  },
+  // {
+  //   name: "Musicólogo Bot",
+  //   nombre: "Musicólogo Bot",
+  //   desc: "An AI chatbot specialized in music history, artists, and release dates with bilingual support.",
+  //   descEs: "Un chatbot con IA especializado en historia de la música, artistas y fechas de lanzamiento con soporte bilingüe.",
+  //   image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786644166/2026-08-13-15-02-38_dxxplm.png",
+  //   title: "Musicólogo Bot",
+  //   photos: [
+  //     "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786644166/2026-08-13-15-02-38_dxxplm.png",
+  //   ],
+  //   web: "https://musicologo-bot.vercel.app/",
+  //   github: "https://github.com/brancastillodev/musicologo-bot",
+  //   extra: [
+  //   ],
+  // },
 ];
 
 export default projects;

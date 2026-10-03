@@ -36,16 +36,15 @@ function Main() {
               Disfruto trabajar en la intersección entre diseño y desarrollo, 
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
               <br />
-              Mi último trabajo es la tienda de indumentaria y diseños digitales{" "}
+              Mi último trabajo es la tienda de indumentaria{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Minc cg
+                minc.cg
               </a>, 
-              donde contacté al creador debido a que me gustaba lo que <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">diseñaba</a> y  
-              toda su impronta y le propuse colaborar. Luego de varias revisiones y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
+              donde contacté al creador debido a que me gustaban sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">trabajos</a> y le propuse colaborar. Luego de varias revisiones y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
               <br />
               {/* Ahora estoy desarrollando una app,{" "}
               <a 
@@ -62,16 +61,16 @@ function Main() {
               I'm a Full Stack Developer specializing in building intuitive, immersive, pixel-perfect user interfaces. 
               I enjoy working at the intersection of design and development, 
               where great user experience meets robust, clean, and scalable code. 
-              My latest work is the clothing and digital design store{" "}
+              My latest work is the clothing store{" "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Minc cg
+                minc.cg
               </a>, 
-              where I contacted the creator because I liked what he <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">designs</a> and his whole imprint, 
-              and I proposed a collaboration. After several revisions and files sent back and forth, we completely exceeded our expectations with the final result.
+              where I contacted the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">work</a> 
+              and proposed to collaborate. After several revisions and files sent back and forth, we completely exceeded our expectations with the final result.
               {/* Now I'm developing a web app,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 

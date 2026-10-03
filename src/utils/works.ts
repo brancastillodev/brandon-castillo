@@ -7,7 +7,7 @@ const works = [
     final: "Jan 2025",
     author: "Brandon Castillo",
     photos:[
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1767315491/2026-01-01-21-57-29_c8rsci.png"],
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_auto,q_auto,w_1280/v1791036557/Screenshot_2026-10-03_at_11-07-13_minc.cg_x9keke.png"],
     web: "https://cgcminc.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/brancastillodev/minc.cg/",
