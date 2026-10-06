@@ -5,16 +5,16 @@ const exp = [
     title: "MINC CG",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555452/2026-08-12-14-15-42_iknyce.png",
     web: "https://minc-cg.com",
-    descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
-    Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
-    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio), como también navegadores (Chrome, Safari).
-    Realicé el diseñó base de datos del e-commerce y gestioné la integración con Snipcart, con una implementación responsive y pixel-perfect.
-    Diseño UX/UI: Daniel Aziah. En desarrollo`,
-    desc: `Multidisciplinary studio producing stylised digital environments and a curated retail platform. 
-    I developed the entire site using Sass and React, collaborating with UX/UI designer. 
-    I optimized the 3D animations and ensured their functionality across all devices (Mobile, Desktop) and browsers (Chrome, Safari).
-    I designed the e-commerce database and managed the Snipcart integration, with responsive pixel-perfect implementation. 
-    UX/UI design by Daniel Aziah. Still in development.`,
+    descEs: `Estudio multidisciplinario y tienda de indumentaria de la ciudad de Londres.
+    Desarrollé el sitio de manera pixel-perfect solo con React y Sass en colaboración con el diseñador UX/UI. 
+    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos, como también navegadores.
+    Diseñe la base de datos del e-commerce y gestioné las ventas con Snipcart.
+    Diseño UX/UI: Daniel Aziah.`,
+    desc: `Multidisciplinary studio and clothing store in London.
+    I developed the site pixel-perfectly only with React and Sass, collaborating with UX/UI designer. 
+    I optimized the 3D animations and ensured their functionality across all devices and browsers..
+    I designed the e-commerce database and managed the sales with Snipcart.
+    UX/UI design by Daniel Aziah.`,
     extra: [
       {name: "Figma", link: "https://www.figma.com/design/qPTA14mF6TFzwutCQ5f7PY/Minc-Designs?node-id=0-1&p=f&t=zJ6jqMvFwvZ3MxWJ-0"}
       
