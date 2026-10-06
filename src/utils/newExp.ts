@@ -74,13 +74,13 @@ const exp = [
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555326/Screenshot_2026-08-12_at_14-17-00_Calle_Construction_qhudb4.png",
     web: "https://calles-construction.vercel.app/",
     desc:`Freelance project where the company needed a custom solution 
-    to manage their own projects through a structured and easy-to-use interface. 
-    My solution was a simple but powerful site where the company can upload, modify and delete works based on different 
+    to manage their own projects through a interactive and easy-to-use interface. 
+    My solution was a simple but powerful web-app where the company can upload, modify, delete and classify diferent projects based on different 
     categories (drywall, painter, utilities, etc).`,
     descEs: `Proyecto freelance en el que la empresa necesitaba una solución personalizada para gestionar sus
-    propios proyectos a través de una interfaz estructurada y fácil de usar.
-    Mi solución fue un sitio web simple pero potente donde la compañia puede subir, 
-    modificar y eliminar proyectos según distintas categorías (drywall, pintura, plomería, etc.).`,
+    propios proyectos a través de interfaz interactiva y fácil de usar.
+    Mi solución fue una web-app simple pero potente donde la compañia pueda subir, 
+    modificar, eliminar y clasificar según categorías (drywall, pintura, plomería, etc.) distintos proyectos.`,
     mainFeat: [
       {
         title: "Company Information",
