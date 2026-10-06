@@ -44,7 +44,8 @@ function Main() {
               >
                 minc.cg
               </a>, 
-              donde contacté al creador debido a que me gustaban sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">trabajos</a> y le propuse colaborar. Luego de varias revisiones y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
+              donde contacté al creador debido a que me gustaban sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">proyectos</a> y le propuse colaborar. 
+              Luego de varias revisiones y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
               <br />
               {/* Ahora estoy desarrollando una app,{" "}
               <a 
@@ -69,7 +70,7 @@ function Main() {
               >
                 minc.cg
               </a>, 
-              where I contacted the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">work</a> 
+              where I contacted the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">projects</a> 
               and proposed to collaborate. After several revisions and files sent back and forth, we completely exceeded our expectations with the final result.
               {/* Now I'm developing a web app,{" "}
               <a 
