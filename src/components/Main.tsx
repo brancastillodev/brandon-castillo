@@ -54,7 +54,7 @@ function Main() {
                 rel="noopener noreferrer"
               >
                 follow your series
-              </a>, donde puedo guardar cada episodio de las series y animes que voy viendo y mantener track. 
+              </a>, donde puedo guardar cada episodio de las series y animes que voy viendo para mantener su seguimiento. 
             </> 
             :
             <> 
@@ -80,7 +80,7 @@ function Main() {
                 rel="noopener noreferrer"
               >
                 follow your series
-              </a>, where I can save every episode that I seen of my favorites animes and series and keep track.
+              </a>, where I can save every episode of the series and anime I'm watching, and keep track of them.
             </>}
           </p>
         </AnimatedSection>
