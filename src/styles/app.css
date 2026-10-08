@@ -71,6 +71,26 @@ nav {
   overflow: hidden;
   filter: contrast(0.85) brightness(0.9);
   background: transparent;
+  cursor: pointer;
+}
+.hero-photo--zoom {
+  position: relative;
+  z-index: 5;
+  transform-origin: top left;
+  transform: scale(2.5);
+  animation: hero-photo-zoom-in 0.25s ease;
+}
+.hero-photo--zoom-out {
+  transform: scale(1);
+  transition: transform 0.25s ease;
+}
+@keyframes hero-photo-zoom-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2.5);
+  }
 }
 
 h1 {

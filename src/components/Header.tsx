@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import cvEn from "../assets/cvs/Brandon Castillo Resume.pdf"
 import cvEs from "../assets/cvs/Brandon Castillo.pdf";
@@ -10,6 +10,10 @@ import { useAppSelector } from "../hooks/hooks";
 
 function Main() {
   const [esp, setEsp] = useState(useAppSelector(state => state.lang.esp));
+  const [photoZoom, setPhotoZoom] = useState(false);
+  const [photoClosing, setPhotoClosing] = useState(false);
+  const closingRef = useRef(false);
+  const closeTimer = useRef<number | undefined>(undefined);
   const leng = useAppSelector(state => state.lang.esp)
   const dark = useAppSelector(state => state.theme.dark)
   const dispatch = useDispatch();
@@ -21,6 +25,40 @@ function Main() {
   useEffect(()=>{
     document.documentElement.setAttribute("data-theme", dark ? "dark" : "light")
   },[dark])
+
+  const openPhotoZoom = () => {
+    if (closingRef.current) return
+    setPhotoZoom(true)
+  }
+
+  // al cerrar hace el zoom out inverso (de grande a chico) y recien ahi vuelve al tamaño original
+  const closePhotoZoom = () => {
+    if (closingRef.current) return
+    closingRef.current = true
+    setPhotoClosing(true)
+    closeTimer.current = window.setTimeout(() => {
+      closingRef.current = false
+      setPhotoZoom(false)
+      setPhotoClosing(false)
+    }, 250)
+  }
+
+  useEffect(()=>()=> window.clearTimeout(closeTimer.current),[])
+
+  // se cierra con cualquier click (incluida la imagen grande) o con Escape
+  useEffect(()=>{
+    if (!photoZoom) return
+    const handleAnyClick = () => closePhotoZoom()
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closePhotoZoom()
+    }
+    document.addEventListener("click", handleAnyClick)
+    document.addEventListener("keydown", handleEscape)
+    return () => {
+      document.removeEventListener("click", handleAnyClick)
+      document.removeEventListener("keydown", handleEscape)
+    }
+  },[photoZoom])
 
   return (
     <header>
@@ -53,7 +91,24 @@ function Main() {
       </nav> 
 
       <div id="hero">
-        <figure className="hero-photo">
+        <figure
+          className={`hero-photo${photoZoom ? " hero-photo--zoom" : ""}${photoClosing ? " hero-photo--zoom-out" : ""}`}
+          role="button"
+          tabIndex={0}
+          aria-label={leng ? "Ampliar foto de perfil" : "Enlarge profile picture"}
+          aria-expanded={photoZoom}
+          title={leng ? "Ampliar foto" : "Enlarge photo"}
+          onClick={(e) => {
+            e.stopPropagation();
+            photoZoom ? closePhotoZoom() : openPhotoZoom();
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              photoZoom ? closePhotoZoom() : openPhotoZoom();
+            }
+          }}
+        >
           <img src={heroPhoto} alt="Brandon Castillo profile picture" />
         </figure>
         <h1>Brandon Castillo</h1>
