@@ -2,9 +2,14 @@ import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { useAppSelector } from "../hooks/hooks";
 
-const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+// Public EmailJS identifiers: they are exposed in the client bundle anyway.
+// Env vars take precedence so they can be overridden per deployment.
+const SERVICE_ID =
+  import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_tvai795";
+const TEMPLATE_ID =
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_btsv12m";
+const PUBLIC_KEY =
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "UYwgXWulRPoIxh021";
 
 function Contact() {
   const leng = useAppSelector((state) => state.lang.esp);
@@ -16,6 +21,16 @@ function Contact() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+
+    if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+      console.error(
+        "EmailJS is not configured: missing VITE_EMAILJS_SERVICE_ID, " +
+          "VITE_EMAILJS_TEMPLATE_ID or VITE_EMAILJS_PUBLIC_KEY."
+      );
+      setStatus("error");
+      return;
+    }
+
     setStatus("sending");
 
     try {
