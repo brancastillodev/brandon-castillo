@@ -11,6 +11,12 @@ const TEMPLATE_ID =
 const PUBLIC_KEY =
   import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "UYwgXWulRPoIxh021";
 
+// Destinatario del formulario. Solo tiene efecto si la plantilla de EmailJS
+// usa {{to_email}} en el campo "To Email"; si tiene una dirección fija,
+// hay que cambiarla en el dashboard de EmailJS.
+const TO_EMAIL =
+  import.meta.env.VITE_CONTACT_TO_EMAIL || "brancastillo.developer@gmail.com";
+
 function Contact() {
   const leng = useAppSelector((state) => state.lang.esp);
   const [name, setName] = useState("");
@@ -37,7 +43,14 @@ function Contact() {
       await emailjs.send(
         SERVICE_ID,
         TEMPLATE_ID,
-        { from_name: name, from_email: email, subject, message },
+        {
+          from_name: name,
+          from_email: email,
+          reply_to: email,
+          to_email: TO_EMAIL,
+          subject,
+          message,
+        },
         { publicKey: PUBLIC_KEY }
       );
       setStatus("sent");
