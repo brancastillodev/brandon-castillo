@@ -105,6 +105,10 @@ section,
   justify-content: center
   animation: image-modal-fade 0.25s ease
 
+// al cerrar: fade out del fondo (inverso al fade in)
+.image-modal__overlay--closing
+  animation: image-modal-fade-out 0.25s ease forwards
+
 .image-modal
   position: relative
   display: flex
@@ -155,14 +159,30 @@ section,
     &--next
       right: -3.5rem
 
+// al cerrar: zoom out, de grande a chico (inverso al zoom in)
+.image-modal--closing
+  animation: image-modal-zoom-out 0.25s ease forwards
+
 @keyframes image-modal-fade
   from
     opacity: 0
   to
     opacity: 1
 
+@keyframes image-modal-fade-out
+  from
+    opacity: 1
+  to
+    opacity: 0
+
 @keyframes image-modal-zoom
   from
     transform: scale(0.9)
   to
     transform: scale(1)
+
+@keyframes image-modal-zoom-out
+  from
+    transform: scale(1)
+  to
+    transform: scale(0.9)

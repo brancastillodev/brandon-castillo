@@ -5,13 +5,13 @@ const exp = [
     title: "MINC CG",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786555452/2026-08-12-14-15-42_iknyce.png",
     web: "https://minc-cg.com",
-    descEs: `Estudio multidisciplinario y tienda de indumentaria de la ciudad de Londres.
-    Desarrollé el sitio de manera pixel-perfect solo con React y Sass en colaboración con el diseñador UX/UI. 
+    descEs: `Estudio multidisciplinario y tienda de indumentaria de Londres.
+    Desarrollé el sitio de manera pixel-perfect en colaboración con el diseñador UX/UI.
     Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos, como también navegadores.
     Diseñe la base de datos del e-commerce y gestioné las ventas con Snipcart.
     Diseño UX/UI: Daniel Aziah.`,
     desc: `Multidisciplinary studio and clothing store in London.
-    I developed the site pixel-perfectly only with React and Sass, collaborating with UX/UI designer. 
+    I developed the site pixel-perfectly collaborating with UX/UI designer. 
     I optimized the 3D animations and ensured their functionality across all devices and browsers..
     I designed the e-commerce database and managed the sales with Snipcart.
     UX/UI design by Daniel Aziah.`,

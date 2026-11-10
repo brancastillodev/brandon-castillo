@@ -73,6 +73,7 @@ nav {
   background: transparent;
   cursor: pointer;
 }
+
 .hero-photo--zoom {
   position: relative;
   z-index: 5;
@@ -80,10 +81,12 @@ nav {
   transform: scale(2.5);
   animation: hero-photo-zoom-in 0.25s ease;
 }
+
 .hero-photo--zoom-out {
   transform: scale(1);
   transition: transform 0.25s ease;
 }
+
 @keyframes hero-photo-zoom-in {
   from {
     transform: scale(1);
@@ -92,7 +95,6 @@ nav {
     transform: scale(2.5);
   }
 }
-
 h1 {
   margin-top: 0.5rem;
   font-size: 2.34rem;
@@ -848,6 +850,10 @@ section,
   animation: image-modal-fade 0.25s ease;
 }
 
+.image-modal__overlay--closing {
+  animation: image-modal-fade-out 0.25s ease forwards;
+}
+
 .image-modal {
   position: relative;
   display: flex;
@@ -899,6 +905,10 @@ section,
   right: -3.5rem;
 }
 
+.image-modal--closing {
+  animation: image-modal-zoom-out 0.25s ease forwards;
+}
+
 @keyframes image-modal-fade {
   from {
     opacity: 0;
@@ -907,12 +917,28 @@ section,
     opacity: 1;
   }
 }
+@keyframes image-modal-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @keyframes image-modal-zoom {
   from {
     transform: scale(0.9);
   }
   to {
     transform: scale(1);
+  }
+}
+@keyframes image-modal-zoom-out {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9);
   }
 }
 

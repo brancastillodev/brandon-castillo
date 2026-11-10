@@ -1,5 +1,8 @@
-import React from "react";
+import { useEffect, useRef, useState } from "react";
 import Modal from "react-modal";
+
+// duración de la animación de zoom out al cerrar (igual que la foto de perfil)
+const CLOSE_MS = 250;
 
 export function getHiRes(src) {
   return src && src.includes("w_800") ? src.replace("w_800", "w_1000") : src;
@@ -13,12 +16,39 @@ export function preloadImage(src) {
 
 function ImageModal({ open, src, alt, onClose, onPrev, onNext }) {
   const hiResSrc = getHiRes(src);
+  const [closing, setClosing] = useState(false);
+  const closingRef = useRef(false);
+  const closeTimer = useRef<number | undefined>(undefined);
+
+  // al abrir reseteamos el estado de cierre
+  useEffect(() => {
+    if (open) {
+      closingRef.current = false;
+      setClosing(false);
+    }
+  }, [open]);
+
+  useEffect(() => () => window.clearTimeout(closeTimer.current), []);
+
+  // al cerrar hace el zoom out inverso (de grande a chico) y recien ahi cierra,
+  // igual que la foto de perfil de la navbar
+  const requestClose = () => {
+    if (closingRef.current) return;
+    closingRef.current = true;
+    setClosing(true);
+    closeTimer.current = window.setTimeout(() => {
+      closingRef.current = false;
+      setClosing(false);
+      onClose && onClose();
+    }, CLOSE_MS);
+  };
+
   return (
     <Modal
       isOpen={open}
-      onRequestClose={onClose}
-      className="image-modal"
-      overlayClassName="image-modal__overlay"
+      onRequestClose={requestClose}
+      className={`image-modal${closing ? " image-modal--closing" : ""}`}
+      overlayClassName={`image-modal__overlay${closing ? " image-modal__overlay--closing" : ""}`}
       shouldCloseOnOverlayClick={true}
       shouldCloseOnEsc={true}
       ariaHideApp={false}
@@ -27,7 +57,7 @@ function ImageModal({ open, src, alt, onClose, onPrev, onNext }) {
       <button
         className="image-modal__btn image-modal__btn--close"
         aria-label="Close"
-        onClick={onClose}
+        onClick={requestClose}
       >
         &#10005;
       </button>
