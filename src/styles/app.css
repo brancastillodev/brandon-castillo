@@ -740,6 +740,11 @@ footer p {
   cursor: not-allowed;
 }
 
+.contact-form__success {
+  color: #3fc761;
+  font-size: 0.9rem;
+}
+
 .contact-form__error {
   color: #e06c75;
   font-size: 0.9rem;

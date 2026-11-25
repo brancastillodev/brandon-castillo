@@ -1,4 +1,4 @@
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { useAppSelector } from "../hooks/hooks";
 
@@ -24,6 +24,13 @@ function Contact() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  // El mensaje de éxito queda visible unos segundos y después el form vuelve a la normalidad.
+  useEffect(() => {
+    if (status !== "sent") return;
+    const timer = window.setTimeout(() => setStatus("idle"), 8000);
+    return () => window.clearTimeout(timer);
+  }, [status]);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -126,8 +133,16 @@ function Contact() {
             : leng ? "Enviar mensaje" : "Send message"}
         </button>
 
+        {status === "sent" && (
+          <p className="contact-form__success" role="status" aria-live="polite">
+            {leng
+              ? "¡Mensaje enviado con éxito! Gracias por escribirme, te respondo a la brevedad."
+              : "Message sent successfully! Thanks for reaching out, I'll get back to you soon."}
+          </p>
+        )}
+
         {status === "error" && (
-          <p className="contact-form__error">
+          <p className="contact-form__error" role="alert">
             {leng
               ? "Hubo un error al enviar. Intentá de nuevo."
               : "Something went wrong. Please try again."}
