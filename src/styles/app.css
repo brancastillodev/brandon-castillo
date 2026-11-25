@@ -369,6 +369,11 @@ h4:hover, .navbar-links a:hover {
   transform: scale(1.02);
 }
 
+.navbar-links a.active {
+  color: var(--hover);
+  transform: scale(1.02);
+}
+
 svg {
   width: 1.1rem;
 }

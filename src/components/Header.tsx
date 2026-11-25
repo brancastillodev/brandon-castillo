@@ -7,6 +7,19 @@ import { Link} from "react-router-dom";
 import { setLang } from "../state/lang";
 import { toggleTheme } from "../state/theme";
 import { useAppSelector } from "../hooks/hooks";
+import { useActiveSection } from "../hooks/useActiveSection";
+
+const navLinks = [
+  { id: "about", es: "Sobre mí", en: "About" },
+  { id: "skills", es: "Habilidades", en: "Skills" },
+  { id: "experience", es: "Experiencia", en: "Experience" },
+  { id: "projects", es: "Académico", en: "Academic" },
+  { id: "my-projects", es: "Proyectos", en: "Projects" },
+  { id: "charts", es: "Charts", en: "Charts" },
+  { id: "contact", es: "Contacto", en: "Contact" },
+] as const;
+
+const navIds = navLinks.map((link) => link.id);
 
 function Main() {
   const [esp, setEsp] = useState(useAppSelector(state => state.lang.esp));
@@ -16,6 +29,7 @@ function Main() {
   const closeTimer = useRef<number | undefined>(undefined);
   const leng = useAppSelector(state => state.lang.esp)
   const dark = useAppSelector(state => state.theme.dark)
+  const { activeId, activate } = useActiveSection(navIds)
   const dispatch = useDispatch();
 
   useEffect(()=>{
@@ -191,13 +205,20 @@ function Main() {
       </div>
 
       <div className="navbar-links">
-        <a href="#about">{leng ? "Sobre mí" : "About"}</a>
-        <a href="#skills">{leng ? "Habilidades" : "Skills"}</a>
-        <a href="#experience">{leng ? "Experiencia" : "Experience"}</a>
-        <a href="#projects">{leng ? "Académico" : "Academic"}</a>
-        <a href="#my-projects">{leng ? "Proyectos" : "Projects"}</a>
-        <a href="#charts">Charts</a>
-        <a href="#contact">{leng ? "Contacto" : "Contact"}</a>
+        {navLinks.map((link) => {
+          const isActive = activeId === link.id;
+          return (
+            <a
+              key={link.id}
+              href={`#${link.id}`}
+              className={isActive ? "active" : undefined}
+              aria-current={isActive ? "true" : undefined}
+              onClick={() => activate(link.id)}
+            >
+              {leng ? link.es : link.en}
+            </a>
+          );
+        })}
       </div>
     </header>
   );

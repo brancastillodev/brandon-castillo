@@ -68,8 +68,8 @@ const projects = [
   //   ],
   // },
   {
-    name: "Create and share images of your source code",
-    nombre: "Crea y comparte imágenes de tu código fuente",
+    name: "Carbon Copy",
+    nombre: "Carbon Copy",
     desc: "Pixel-perfect, responsive, interactive, user login, save favorite styles. Deployed with Vercel/Render.",
     descEs: "Pixel-perfect, responsivo, interactivo, logueo de usuario, guardado de estilos favoritos. Deployado con Vercel/Render.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
@@ -99,12 +99,12 @@ const projects = [
     ],
   },
   {
-    name: "Real estate website with booking and admin panel",
-    nombre: "Sitio web de bienes raíces con reservas y panel de administración",
+    name: "House Of Dev",
+    nombre: "House Of Dev",
     desc: "A real estate website built with React, Redux Toolkit, and MUI. Features property booking meetings, email confirmation/cancellation, save favorites, and full admin control.",
     descEs: "Sitio web de bienes raíces hecho con React, Redux Toolkit y MUI. Incluye reservas de reuniones en propiedades, confirmación y cancelación por mail, guardado de favoritos y control total en modo admin.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786547228/2026-08-12-12-02-55_mrlobq.png",
-    title: "House of Dev",
+    title: "House Of Dev",
     photos: [
      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786547228/2026-08-12-12-02-55_mrlobq.png"
     ],
@@ -137,8 +137,8 @@ const projects = [
     ],
   },
   {
-    name: "Search and save your favorite movies",
-    nombre: "Buscá y guardá tus películas favoritas",
+    name: "My Movie Crib",
+    nombre: "My Movie Crib",
     desc: "A movie searcher built with React, Redux Toolkit, and TypeScript. Search popular movies or by text, and save favorites with user authentication.",
     descEs: "Buscador de películas hecho con React, Redux Toolkit y TypeScript. Buscá películas populares o por texto, y guardá favoritos con autenticación de usuario.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80,w_800/v1786548889/Screenshot_2026-08-12_at_12-31-45_My_Movie_Crib_iukvxw.png",
