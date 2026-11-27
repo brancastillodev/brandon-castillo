@@ -47,7 +47,7 @@ function Main() {
               donde contacté al creador debido a que me gustaban mucho sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">trabajos</a> y le propuse colaborar. 
               Luego de varios emails y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
               <br />
-              Ahora estoy trabajando en una mobile/web app,{" "}
+              Ahora estoy trabajando en una app,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
                 target="_blank" 
@@ -70,17 +70,17 @@ function Main() {
               >
               minc.cg
               </a>, 
-              where I contacted the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">projects </a> 
-              and proposed to collaborate. After several revisions and files sent back and forth, we completely exceeded our expectations with the final result.
+              where I contacted the creator because I liked his <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">works </a> 
+              and ask him to collaborate. After several revisions and files sent back and forth, we completely exceeded our expectations with the final result.
               <br />
-              Now I'm working on a mobile/web app,{" "}
+              Now I'm working on a mobile app,{" "}
               <a 
                 href="https://www.figma.com/design/kmxd4oJSzoH0eVox9noZoC/Dise%C3%B1o-de-App?node-id=0-1&t=ocxJBAA1fn84vk4D-1" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 follow your series
-              </a>, where can I keep a record of every episode of the series and animes that I'm watching to follow them properly.
+              </a>, where can I keep a record of every episode of the series and anime that I'm watching, to follow them properly.
             </>}
           </p>
         </AnimatedSection>
