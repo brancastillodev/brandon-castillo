@@ -36,7 +36,7 @@ function Main() {
               Disfruto trabajar en la intersección entre diseño y desarrollo, 
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
               <br />
-              Mi último trabajo es la tienda de indumentaria{", "}
+              Mi último trabajo es la tienda de ropa{", "}
               <a 
                 href="https://minc-cg.com" 
                 target="_blank" 
@@ -44,8 +44,8 @@ function Main() {
               >
                 minc.cg
               </a>, 
-              donde contacté al creador debido a que me gustaban sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">proyectos</a> y le propuse colaborar. 
-              Luego de varias revisiones y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
+              donde contacté al creador debido a que me gustaban mucho sus <a href="https://www.instagram.com/minc.cg/" target="_blank" rel="noopener noreferrer">trabajos</a> y le propuse colaborar. 
+              Luego de varios emails y archivos enviados, superamos completamente nuestras expectativas con el resultado final. 
               <br />
               Ahora estoy trabajando en una mobile/web app,{" "}
               <a 
@@ -54,7 +54,7 @@ function Main() {
                 rel="noopener noreferrer"
               >
                 follow your series
-              </a>, donde puedo guardar cada episodio de las series y animes que voy viendo para mantener su seguimiento. 
+              </a>, donde puedo mantener un registro de cada episodio de las series y animes que voy viendo para mantener su seguimiento. 
             </> 
             :
             <> 
@@ -80,7 +80,7 @@ function Main() {
                 rel="noopener noreferrer"
               >
                 follow your series
-              </a>, where I can save every episode of the series and anime I'm watching, and keep track of them.
+              </a>, where can I keep a record of every episode of the series and animes that I'm watching to follow them properly.
             </>}
           </p>
         </AnimatedSection>
