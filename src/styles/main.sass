@@ -41,8 +41,19 @@ section
   gap: 0.2rem
   font-size: 1.4rem
   font-weight: 400
-  color: var(--title)
+  color: var(--accent)
   margin-bottom: 0.3rem
+
+// títulos de works y proyectos: color de los links de about, subrayados y en mayúscula
+.exp-card__title__text,
+.proj-card__title__text
+  font-size: 1.1rem
+  font-weight: 400
+  color: inherit
+  text-transform: uppercase
+  text-decoration: underline
+  text-decoration-thickness: 1px
+  text-underline-offset: 3px
 
 .exp-card__link
   display: inline-flex
@@ -151,6 +162,7 @@ section
   display: flex
   align-items: flex-end
   gap: 0.2rem
+  color: var(--accent)
 
   .exp-card__arrow
     width: 1rem

@@ -227,8 +227,19 @@ section {
   gap: 0.2rem;
   font-size: 1.4rem;
   font-weight: 400;
-  color: var(--title);
+  color: var(--accent);
   margin-bottom: 0.3rem;
+}
+
+.exp-card__title__text,
+.proj-card__title__text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .exp-card__link {
@@ -354,6 +365,7 @@ section {
   display: flex;
   align-items: flex-end;
   gap: 0.2rem;
+  color: var(--accent);
 }
 .proj-card__title .exp-card__arrow {
   width: 1rem;
@@ -876,14 +888,15 @@ section,
   outline: none;
   background: none;
   padding: 0;
+  max-width: calc(100vw - 2rem);
   animation: image-modal-zoom 0.25s ease;
 }
 .image-modal__img {
-  width: 100%;
-  max-width: 1000px;
-  max-height: 96vh;
   width: auto;
   height: auto;
+  max-width: min(1000px, 100vw - 2rem);
+  max-height: 90vh;
+  max-height: 88dvh;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
@@ -923,6 +936,22 @@ section,
   animation: image-modal-zoom-out 0.25s ease forwards;
 }
 
+@media (max-width: 768px) {
+  .image-modal__btn {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .image-modal__btn--close {
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+  .image-modal__btn--prev {
+    left: 0.75rem;
+  }
+  .image-modal__btn--next {
+    right: 0.75rem;
+  }
+}
 @keyframes image-modal-fade {
   from {
     opacity: 0;

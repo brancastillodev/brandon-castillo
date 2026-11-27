@@ -117,14 +117,15 @@ section,
   outline: none
   background: none
   padding: 0
+  max-width: calc(100vw - 2rem)
   animation: image-modal-zoom 0.25s ease
 
   &__img
-    width: 100%
-    max-width: 1000px
-    max-height: 96vh
     width: auto
     height: auto
+    max-width: min(1000px, calc(100vw - 2rem))
+    max-height: 90vh
+    max-height: 88dvh
     object-fit: contain
     border-radius: 8px
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.6)
@@ -162,6 +163,23 @@ section,
 // al cerrar: zoom out, de grande a chico (inverso al zoom in)
 .image-modal--closing
   animation: image-modal-zoom-out 0.25s ease forwards
+
+// en mobile los botones van dentro de la imagen (afuera quedaban fuera de pantalla)
+@media (max-width: 768px)
+  .image-modal
+    &__btn
+      width: 2.25rem
+      height: 2.25rem
+
+      &--close
+        top: 0.75rem
+        right: 0.75rem
+
+      &--prev
+        left: 0.75rem
+
+      &--next
+        right: 0.75rem
 
 @keyframes image-modal-fade
   from

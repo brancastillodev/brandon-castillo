@@ -9,7 +9,7 @@ const projects = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_auto,q_auto,w_800/v1789919003/canta-demo0002_rbaa7s.png",
     ],
-    web: "https://github.com/brancastillodev/canta",
+    web: "https://youtu.be/NLc23MWYJ-E?si=GO3p8pKwAdLeSuBu",
     github: "https://github.com/brancastillodev/canta",
     date: "Sept 2025",
     extra: [
