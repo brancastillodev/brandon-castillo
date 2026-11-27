@@ -213,7 +213,14 @@ function Main() {
               href={`#${link.id}`}
               className={isActive ? "active" : undefined}
               aria-current={isActive ? "true" : undefined}
-              onClick={() => activate(link.id)}
+              onClick={(e) => {
+                // about es la primera sección: llevar al top real de la página
+                if (link.id === "about") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+                activate(link.id);
+              }}
             >
               {leng ? link.es : link.en}
             </a>
