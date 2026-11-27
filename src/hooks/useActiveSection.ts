@@ -9,6 +9,12 @@ const ACTIVATION_RATIO = 0.35;
 // gestos que indican que el usuario volvió a scrollear a mano
 const USER_SCROLL_EVENTS = ["wheel", "touchmove", "keydown"] as const;
 
+// secciones que deben activarse un poco antes de llegar a la línea:
+// charts es corta y el highlight quedaba demasiado tiempo en proyectos
+const ACTIVATION_LEAD: Record<string, number> = {
+  charts: 120,
+};
+
 export function useActiveSection(sectionIds: readonly string[]) {
   const [activeId, setActiveId] = useState("");
   // al hacer click en un link fijamos esa sección hasta que el usuario
@@ -51,7 +57,8 @@ export function useActiveSection(sectionIds: readonly string[]) {
 
       let currentId = "";
       for (const el of elements) {
-        const top = el.getBoundingClientRect().top;
+        const top =
+          el.getBoundingClientRect().top - (ACTIVATION_LEAD[el.id] ?? 0);
         if (top > line) break;
         currentId = el.id;
       }
